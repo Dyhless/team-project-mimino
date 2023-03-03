@@ -1,0 +1,162 @@
+/* About a complex */
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    div.container.abaco {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    div.container.abaco {    
+    max-width: 375px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div.container.abaco {
+        max-width: 768px;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    div.container.abaco {
+        max-width: 1440px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+}
+
+
+/* Top part */
+
+.top-part-abaco {
+    margin-bottom: 64px;
+}
+
+div.wraper-relative-top {
+    position: relative;
+}
+
+
+
+.abaco-hotel-hall {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.abaco-hotel-bath {
+    display: block;
+    max-width: 282px;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+.abaco-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14 / 12;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 18px;
+}
+
+.abaco-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18 / 14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;      
+}
+
+.abaco-text.one {
+    margin-bottom: 14px;
+}
+
+.abaco-customer-feetback-top {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 212px;
+    height: 61px;
+    background-color: #121212;
+    border-radius: 6px;
+    padding: 12px 14px;
+
+    position: absolute;
+    top: 422px;
+    left: 122px;
+}
+
+
+.abaco-customer-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14 / 14;
+    color: #F7F7F7;
+}
+
+.abaco-customer-rating {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133.02%;
+    color: #575757;
+}
+
+.abaco-rate {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16 / 12;
+    color: #F7F7F7;
+}
+
+
+
+/* Bottom part */
+.bottom-part-abaco {
+}
+
+.abaco-hotel-table {
+    margin-bottom: 54px;
+}
+
+p.abaco-text.three {
+    margin-bottom: 40px;
+}
+
+.abaco-customer-feetback-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 212px;
+    height: 61px;
+    background-color: #121212;
+    border-radius: 6px;
+    padding: 12px 14px;
+
+    position: absolute;
+    top: 273px;
+    left: 0;
+}
+
+.customer-pic {
+    width: 41px;
+    height: 41px;
+}
+
+.wraper-relative-bottom {
+    position: relative;
+}
+
