@@ -1,10 +1,10 @@
 body {
    font-family: DM Sans, sans-serif;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 1.5;
-   letter-spacing: 0.02em;
+   letter-spacing: -0.02em;
    margin: 0;
-   color: var(--primary-text-color);
+   color: var(--h1-h2-h3-blackcolor);
 }
 
 /* CONTAINER */
