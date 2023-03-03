@@ -6,5 +6,8 @@
 @import url('./hotel/hotel.css');
 @import url('./restaurant/restaurant.css');
 @import url('./room/room.css');
+@import url('./modal-window/prices-modal.css');
+@import url('./modal-window/room-modal.css');
+@import url('./modal-window/table-modal.css');
 @import url('./footer.css');
 
