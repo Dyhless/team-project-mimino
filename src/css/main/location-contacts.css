@@ -48,7 +48,6 @@
 
 @media screen and (max-width: 767px) {
   .location-section {
-    /* padding-top: 64px; */
     padding-bottom: 64px;
   }
 
@@ -66,7 +65,7 @@
   .map {
     display: block;
 
-    width: 335px;
+    width: 100%;
     height: 384px;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +98,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .location-section {
-    /* padding-top: 80px; */
     padding-bottom: 80px;
   }
 
@@ -148,7 +146,6 @@
   }
 
   .location-section {
-    /* padding-top: 100px; */
     padding-bottom: 100px;
   }
 
