@@ -1,0 +1,29 @@
+:root {
+
+   /* COLORS */
+
+   --white-header-color: #FFFFFF;
+   --backcolor-dark: #121212;
+   --backcolor-light: #F6F6F6;
+   --h1-h2-h3-blackcolor: #121212;
+   --h1-h2-h3-whitecolor: #F6F6F6;
+   --adress-color: #000000;
+   --paragraph-blackcolor: #121212;
+   --paragraph-whitecolor: #F6F6F6;
+   --lightwhite-paragraph: #D8D7D7;
+   --svg-dark: #121212;
+   --svg-light: #F6F6F6;
+   --menu-paragraph-light: rgba(216, 215, 215, 0.5);
+   --btns-darkborder: #121212;
+   --btns-whiteborder: #F6F6F6;
+   --burger-symbols-white: #F6F6F6;
+   --burger-symbols-dark: #121212;
+
+   /* FONTS */
+
+   --main-font: 'DM Sans', sans-serif;
+
+   /* other */
+   --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

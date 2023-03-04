@@ -1,13 +1,13 @@
 body {
    font-family: DM Sans, sans-serif;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 1.5;
-   letter-spacing: 0.02em;
+   letter-spacing: -0.02em;
    margin: 0;
-   color: var(--primary-text-color);
+   color: var(--h1-h2-h3-blackcolor);
 }
 
-/* container */
+/* CONTAINER */
 
 .container {
    width: 100vw;
@@ -24,7 +24,7 @@ body {
    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) {
    .container {
       max-width: 768px;
       padding-left: 32px;
@@ -36,8 +36,6 @@ body {
 @media screen and (min-width: 1440px) {
    .container {
       max-width: 1440px;
-      padding-left: 32px;
-      padding-right: 32px;
       outline: 1px solid tomato;
    }
 }
