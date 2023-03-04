@@ -4,7 +4,6 @@
   font-weight: 500;
   font-size: 68px;
   line-height: 1;
-
   text-transform: uppercase;
 }
 
@@ -15,9 +14,7 @@
 .location-link-map {
   font-size: 18px;
   line-height: 1.33;
-
   text-transform: uppercase;
-
   color: #000000;
 }
 
@@ -48,6 +45,7 @@
 
 @media screen and (max-width: 767px) {
   .location-section {
+    padding-top: 64px;
     padding-bottom: 64px;
   }
 
@@ -58,13 +56,11 @@
   .location-title {
     font-size: 40px;
     line-height: 1;
-
     margin-bottom: 32px;
   }
 
   .map {
     display: block;
-
     width: 100%;
     height: 384px;
     margin-left: auto;
@@ -96,8 +92,9 @@
 
 /* ==================== Tablet ==================== */
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) {
   .location-section {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -141,12 +138,13 @@
     display: flex;
   }
 
-  .map-general {
-    display: none;
+  .location-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
-  .location-section {
-    padding-bottom: 100px;
+  .map-general {
+    display: none;
   }
 
   .location-address {
@@ -176,10 +174,8 @@
   .location-text {
     font-weight: 700;
     margin-right: 12px;
-
     font-size: 14px;
     line-height: 1.29;
-
     text-transform: uppercase;
   }
 
