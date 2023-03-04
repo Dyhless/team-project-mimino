@@ -128,7 +128,7 @@
     margin-bottom: 32px;
   }
 
-  .location-list {
+  .location-address {
     display: flex;
     justify-content: space-between;
   }
@@ -147,6 +147,10 @@
 /* ==================== Desctop ==================== */
 
 @media screen and (min-width: 1440px) {
+  .location-address-desctop {
+    display: flex;
+  }
+
   .map-general {
     display: none;
   }
