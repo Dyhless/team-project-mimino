@@ -1,20 +1,20 @@
 .hotel-hero {
     overflow: hidden;
     padding-top: 40px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
     background-color: var(--backcolor-light);
 }
 
 @media screen and (min-width: 768px){
     .hotel-hero{
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
-    
 }
 
 @media screen and (min-width: 1440px) {
     .hotel-hero {
-        padding-bottom: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .hero-block {
@@ -23,7 +23,6 @@
         align-items: center;
         gap: 369px;
     }
-
 }
 
 .hotel-hero-title {
@@ -40,7 +39,6 @@
         padding-bottom: 32px;
         font-size: 80px;
     }
-    
 }
 
 @media screen and (min-width: 1440px) {
@@ -48,10 +46,10 @@
         padding-bottom: 32px;
         font-size: 90px;
     }
-
 }
 
 .hero-list-btn {
+    display: flex;
     margin-bottom: 40px;
 }
 
@@ -59,7 +57,6 @@
     .hero-list-btn {
         margin-bottom: 54px;
     }
-
 }
 
 .hero-list-btn :not(:last-child) {
@@ -130,7 +127,6 @@
     position: absolute;
     top: 100%;
     margin-top: 24px;
-    
     z-index: 10;
     font-size: 0;
     width: 36px;
@@ -154,14 +150,15 @@
 .slick-prev{
     left: 231px;
 }
+
 .slider .slick-arrow.slick-prev {
-    
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../img/icons/slider-left-new.svg');
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
 }
+
 @media screen and (min-width: 768px) {
     .slick-prev {
         left: 600px;
@@ -173,22 +170,24 @@
         left: 0px;
     }
 }
+
 .slick-next {
     left: 299px;
 }
 .slider .slick-arrow.slick-next {
-    
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../img/icons/slider-right.svg');
     opacity: 0.3;
     transition: opacity var(--transition-dur-func);
 }
+
 @media screen and (min-width: 768px) {
     .slick-next {
         left: 668px;
     }
 }
+
 @media screen and (min-width: 1440px) {
     .slick-next {
         left: 68px;
@@ -220,12 +219,10 @@
 
 @media screen and (min-width: 1440px) {
     .hotel-hero-description {
-        
         margin-top: -36px;
         width: 338px;
     }
 }
-
 
 .part-hotel-hero-description {
     font-style: italic;
