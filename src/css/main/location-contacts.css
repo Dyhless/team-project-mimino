@@ -5,7 +5,6 @@
   font-size: 68px;
   line-height: 1;
 
-  letter-spacing: -0.02em;
   text-transform: uppercase;
 }
 
@@ -17,7 +16,6 @@
   font-size: 18px;
   line-height: 1.33;
 
-  letter-spacing: -0.02em;
   text-transform: uppercase;
 
   color: #000000;
@@ -26,8 +24,6 @@
 .location-nummer {
   font-size: 14px;
   line-height: 1.29;
-
-  letter-spacing: -0.02em;
 }
 
 .location-text {
@@ -52,7 +48,7 @@
 
 @media screen and (max-width: 767px) {
   .location-section {
-    padding-top: 64px;
+    /* padding-top: 64px; */
     padding-bottom: 64px;
   }
 
@@ -89,15 +85,11 @@
     margin-bottom: 4px;
     font-size: 14px;
     line-height: 1.29;
-
-    letter-spacing: -0.02em;
   }
 
   .location-link-nummer2 {
     font-size: 14px;
     line-height: 1.29;
-
-    letter-spacing: -0.02em;
   }
 }
 
@@ -107,7 +99,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .location-section {
-    padding-top: 80px;
+    /* padding-top: 80px; */
     padding-bottom: 80px;
   }
 
@@ -156,7 +148,7 @@
   }
 
   .location-section {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 100px;
   }
 
@@ -191,7 +183,6 @@
     font-size: 14px;
     line-height: 1.29;
 
-    letter-spacing: -0.02em;
     text-transform: uppercase;
   }
 
