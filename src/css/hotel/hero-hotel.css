@@ -6,14 +6,12 @@
 
 .hotel-hero-title {
     padding-bottom: 24px;
-
     font-weight: 400;
     font-size: 40px;
     line-height: 1;
     text-transform: uppercase;
     color: var(--paragraph-blackcolor);
 }
-
 
 .hero-list-btn {
     margin-bottom: 40px;
@@ -28,14 +26,12 @@
     border: 0.8px solid var(--paragraph-blackcolor);
     border-radius: 32px;
     padding: 8px 18px;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
     color: var(--paragraph-blackcolor);
     background-color: transparent;
-
     transition: color var(--transition-dur-func), background-color var(--transition-dur-func);
 }
 
