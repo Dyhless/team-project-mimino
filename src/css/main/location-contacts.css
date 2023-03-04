@@ -168,12 +168,12 @@
     margin-right: 32px;
   }
 
-  .location-nummer {
+  .location-list {
     display: flex;
   }
 
-  .location-list {
-    display: flex;
+  .location-map-item {
+    margin-right: 70px;
   }
 
   .location-title {
@@ -182,12 +182,23 @@
 
   .location-text {
     font-weight: 700;
+    margin-right: 12px;
+
+    font-size: 14px;
+    line-height: 1.29;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
   }
 
   .map {
     display: block;
     width: 640px;
     height: 524px;
+  }
+
+  .location-link-nummer1 {
+    margin-bottom: 4px;
   }
 }
 
