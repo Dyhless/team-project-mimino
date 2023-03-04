@@ -1,0 +1,29 @@
+.section-amenities {
+  /* padding: 40px 20px 64px 20px; */
+  padding-top: 40px;
+  padding-bottom: 64px;
+  background-color: var(--backcolor-dark);
+}
+.container-amenities {
+  max-width: 335px;
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  color: var(--paragraph-whitecolor);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.list-amenities {
+  list-style: inside;
+  font-size: 14px;
+  line-height: 1.29;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-left: 20px;
+  list-style-position: outside;
+}
+.head-amenities {
+  font-size: 28px;
+  line-height: 1.14;
+  margin-bottom: 28px;
+}

@@ -1,6 +1,7 @@
 .hotel-hero {
     overflow: hidden;
     padding-top: 40px;
+    padding-bottom: 100px;
     background-color: var(--backcolor-light);
 }
 
@@ -41,6 +42,7 @@
     background-color: var(--backcolor-dark);
 }
 
+
 .slider-container {
     position: relative;
     min-width: 520px;
@@ -49,22 +51,56 @@
 .slider-img {
     margin-right: 20px;
 }
-
-.slick-prev:before {
-    content: '←';
-}
-
 .slick-prev:before,
 .slick-next:before {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-    opacity: .75;
-    color: rgb(110, 25, 25);
+    display: none;
 }
 
+/* .slick-prev,
+.slick-next { 
+    position: absolute;
+    top: 100%;
+    left: 268px;
+    margin-top: 24px;
+} */
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 100%;
+    margin-top: 24px;
+    
+   
+    z-index: 10;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 251px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icons/left.svg');
+    opacity: 0.3;
+    transition: opasity var(--transition-dur-func);
+}
+
+.slider .slick-arrow.slick-next {
+    right: 185px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icons/slider-right.svg');
+    opacity: 0.3;
+    transition: opasity var(--transition-dur-func);
+}
+
+.slider .slick-arrow.slick-next:hover,
+.slider .slick-arrow.slick-prev:hover {
+    opacity: 1;
+}
 
 .hotel-hero-description {
+    margin-top: 100px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
