@@ -1,0 +1,438 @@
+/* About a complex  - Abaco*/
+/* Containers */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    div.container.abaco {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    div.container.abaco {    
+    max-width: 375px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div.container.abaco {
+        max-width: 768px;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    div.container.abaco {
+        max-width: 1440px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+}
+
+
+/* work part */
+
+@media screen and (max-width: 767px) {
+    .top-part-abaco {
+    margin-bottom: 64px;
+}}
+
+@media screen and (min-width: 768px) {
+    .top-part-abaco {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .top-part-abaco {
+        display: flex;
+        align-items: center;
+        gap: 364px;
+        margin-bottom: 100px;
+    }
+}
+
+/* Wrapers */
+.wraper-relative-bottom {
+    position: relative;
+}
+
+div.wraper-relative-top {
+    position: relative;
+}
+
+
+/* Pictures top */
+/* Picture 1 */
+.abaco-hotel-hall {
+    display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .abaco-hotel-hall {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .abaco-hotel-hall {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 205px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abaco-hotel-hall {
+        width: 482px;
+        height: auto;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .abaco-hotel-hall {
+        margin-bottom: 0;
+}}
+
+/* picture 2 */
+.abaco-hotel-bath {
+    display: block;
+    position: absolute;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .abaco-hotel-bath {
+        position: absolute;
+        left: 0;
+        top: 105%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .abaco-hotel-bath {
+        max-width: 282px;
+        height: auto;
+
+        top: 462px;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abaco-hotel-bath {
+        width: 404px;
+        height: auto;
+        
+        top: 209px;
+        left:300px;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .abaco-hotel-bath {
+        width: 439px;
+        height: auto;
+
+        top: 209px;
+        left: 300px;
+        z-index: 1;
+    }
+}
+
+/* picture Customer */
+.customer-pic {
+    display: block;
+    width: 41px;
+    height: 41px;
+}
+
+/* Picture 3 */
+.abaco-hotel-table {
+    display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .abaco-hotel-table {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .abaco-hotel-table {
+        max-width: 100%px;
+        height: auto;
+        margin-bottom: 54px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abaco-hotel-table {
+        width: 530px;
+        height: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .abaco-hotel-table {
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+}
+
+
+/* Picture 4 */
+.abaco-hotel-rest {
+    display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .abaco-hotel-rest {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .abaco-hotel-rest {
+        max-width: 100%px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .abaco-hotel-rest {
+        width: 266px;
+        height: auto;
+    }
+}
+
+/* Abaco title */
+.abaco-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14 / 12;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 18px;
+}
+
+
+
+/* Abaco text */
+.abaco-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18 / 14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;      
+}
+
+@media screen and (min-width: 768px) {
+    .abaco-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24/18;
+    }
+}
+
+.abaco-text.one {
+    margin-bottom: 14px;
+}
+
+.abaco-text.two {
+    margin-bottom: 0px;
+}
+
+.abaco-text.three {
+    margin-bottom: 40px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .abaco-top-text-part {
+        width: 100%;
+        text-align: left;
+}}
+
+@media screen and (min-width: 768px) {
+    .abaco-top-text-part {
+        width: 472px;
+        text-align: left;
+}}
+
+@media screen and (min-width: 1440px) {
+    .abaco-top-text-part {
+        width: 472px;
+        text-align: left;
+}}
+
+
+/* Customer feetback block */
+.abaco-customer-feetback-top {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 212px;
+    height: 61px;
+    background-color: #121212;
+    border-radius: 6px;
+    padding: 12px 14px;
+
+}
+
+@media screen and (max-width: 374px) {
+    .abaco-customer-feetback-top {
+        max-width: 212px;
+        height: auto;
+        position: absolute;
+        top: 95%;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+ /* mobile */
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .abaco-customer-feetback-top {
+        position: absolute;
+        top: 422px;
+        left: 122px;
+        z-index: 2;
+    }
+}
+
+/* tublet */
+@media screen and (min-width: 768px) {
+    .abaco-customer-feetback-top {
+        position: absolute;
+        top: 176px;
+        left: 370px;
+        z-index: 2;
+    }
+}
+
+/* desctop */
+@media screen and (min-width: 1440px) {
+    .abaco-customer-feetback-top {
+        position: absolute;
+        top: 176px;
+        left: 370px;
+        z-index: 2;
+    }
+}
+
+
+
+.abaco-customer-feetback-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 212px;
+    height: 61px;
+    background-color: #121212;
+    border-radius: 6px;
+    padding: 12px 14px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .abaco-customer-feetback-bottom {
+        position: absolute;
+        top: 33%;
+        left: 0;
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .abaco-customer-feetback-bottom {
+        position: absolute;
+        top: 273px;
+        left: 0px;
+        z-index: 2;
+    }
+}
+
+/* tublet */
+@media screen and (min-width: 768px) {
+    .abaco-customer-feetback-bottom {
+        position: absolute;
+        top: 303px;
+        left: 67px;
+        z-index: 2;
+    }
+}
+
+/* desctop */
+@media screen and (min-width: 1440px) {
+    .abaco-customer-feetback-bottom {
+        position: absolute;
+        top: 303px;
+        left: 739px;
+        z-index: 2;
+    }
+}
+
+
+.abaco-customer-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14 / 14;
+    color: #F7F7F7;
+}
+
+.abaco-customer-rating {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133.02%;
+    color: #575757;
+}
+
+.abaco-rate {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16 / 12;
+    color: #F7F7F7;
+}
+
+/* Bottom Flex Block */
+
+@media screen and (min-width: 768px) {
+    .abaco-bottom-block {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+        justify-content: start;
+    }
+
+    .abaco-bottom-block-text {
+        width: 263px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .abaco-bottom-block {
+        position: absolute;
+        top: 127px;
+        left: 176px;
+        gap: 54px;
+    }
+}
+
