@@ -1,3 +1,5 @@
+/* ==================== Global styles ==================== */
+
 .location-title {
   font-weight: 500;
   font-size: 68px;
@@ -44,10 +46,18 @@
   line-height: 1.33;
 }
 
+/* ==================== /Global styles ==================== */
+
+/* ==================== Mobile ==================== */
+
 @media screen and (max-width: 767px) {
   .location-section {
     padding-top: 64px;
     padding-bottom: 64px;
+  }
+
+  .map-desctop {
+    display: none;
   }
 
   .location-title {
@@ -91,10 +101,18 @@
   }
 }
 
+/* ==================== /Mobile ==================== */
+
+/* ==================== Tablet ==================== */
+
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .location-section {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .map-desctop {
+    display: none;
   }
 
   .location-title {
@@ -124,5 +142,53 @@
   }
 }
 
+/* ==================== /Tablet ==================== */
+
+/* ==================== Desctop ==================== */
+
 @media screen and (min-width: 1440px) {
+  .map-general {
+    display: none;
+  }
+
+  .location-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .location-address {
+    display: none;
+  }
+
+  .map-desctop {
+    display: flex;
+  }
+
+  .map {
+    margin-right: 32px;
+  }
+
+  .location-nummer {
+    display: flex;
+  }
+
+  .location-list {
+    display: flex;
+  }
+
+  .location-title {
+    margin-bottom: 399px;
+  }
+
+  .location-text {
+    font-weight: 700;
+  }
+
+  .map {
+    display: block;
+    width: 640px;
+    height: 524px;
+  }
 }
+
+/* ==================== /Desctop ==================== */
