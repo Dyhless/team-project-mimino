@@ -15,7 +15,6 @@
 }
 .list-amenities {
   list-style: inside;
-  /* list-style-type: disc; */
   font-size: 14px;
   line-height: 1.29;
   font-weight: 400;
@@ -28,13 +27,3 @@
   line-height: 1.14;
   margin-bottom: 28px;
 }
-/* .item-amenities::before {
-  content: '';
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  margin-right: 10px;
-  margin-bottom: 3px;
-  background-color: var(--backcolor-light);
-} */
