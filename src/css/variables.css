@@ -23,4 +23,7 @@
 
    --main-font: 'DM Sans', sans-serif;
 
+   /* other */
+   --transition-dur-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
