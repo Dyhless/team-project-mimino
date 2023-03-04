@@ -21,6 +21,7 @@ height: auto;
 }
 .about-k_txt {
     padding-bottom: 24px;
+    color: var(--adress-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -48,6 +49,7 @@ height: auto;
     display: flex;
     gap:32px;
     padding-bottom: 0;
+
 }
 }
 
@@ -55,7 +57,7 @@ height: auto;
     .about_k {
     margin-top: 100px;
     margin-bottom: 100px;
-}
+    }
 .cook {
     max-width: 511px;
     height: auto;
@@ -73,6 +75,10 @@ max-width: 334px;
 height: auto;
 }
 /* додати клас на кожну фотку, різний розмір */
+
+.about-k_txt {
+    font-weight: 500;
+}
 }
 
 
