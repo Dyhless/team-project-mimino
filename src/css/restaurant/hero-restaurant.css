@@ -1,0 +1,14 @@
+.hero-restaurant {
+  overflow: hidden;
+  padding-top: 40px;
+  background-color: var(--backcolor-light);
+}
+
+.hero-restaurant-title {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--paragraph-blackcolor);
+}
