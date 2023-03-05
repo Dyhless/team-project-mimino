@@ -14,10 +14,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <title>Restaurant Page</title>
     
     <script type="module" crossorigin src="/team-project-mimino/assets/room-modal-ea79b097.js"></script>
-    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-3168c167.css">
+    <script type="module" crossorigin src="/team-project-mimino/assets/slider-5852924e.js"></script>
+    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-f6c08bf6.css">
   </head>
   <body>
     <a href="index.html">Main</a>
@@ -28,163 +40,165 @@
     <section class="hero-restaurant container">
   <div class="hero-restaurant-block">
     <h1 class="hero-restaurant-title">Restaurant</h1>
-    <button type="button" class="hero-restaurant-btn">book a table</button>
-    <button type="button" class="hero-restaurant-btn">View a menu</button>
+    <ul class="hero-restaurant-btns">
+      <button type="button" class="hero-restaurant-btn">book a table</button>
+      <button type="button" class="hero-restaurant-btn">View a menu</button>
+    </ul>
   </div>
-  <div class="hero-restaurant-slider slider">
-    <div>
+  <div class="slider hero-restaurant-slider">
+    <div class="slider-img">
       <picture>
         <source
+          media="(min-width: 1440px)"
           srcset="/team-project-mimino/assets/1image@1x-5a253f72.jpg 1x, /team-project-mimino/assets/1image@2x-2005d848.jpg 2x"
-          media="(min-width: 1440px)"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/tublet/restoraunt_page/hero_slider/1image@1x.jpg 1x,
-            /img/tublet/restoraunt_page/hero_slider/1image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/1image@1x-15d099f8.jpg 1x, /team-project-mimino/assets/1image@2x-e77e779e.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/mobile/restoraunt_page/hero_slider/1image@1x.jpg 1x,
-            /img/mobile/restoraunt_page/hero_slider/1image@2x.jpg 2x
-          "
           media="(max-width: 767px)"
+          srcset="/team-project-mimino/assets/1image@1x-e5b5e1a5.jpg 1x, /team-project-mimino/assets/1image@2x-23f2586a.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/1image@1x.jpg"
-          alt="empty table"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/1image@1x-e5b5e1a5.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
-    <div>
+    <div class="slider-img">
       <picture>
         <source
+          media="(min-width: 1440px)"
           srcset="/team-project-mimino/assets/2image@1x-12aa3631.jpg 1x, /team-project-mimino/assets/2image@2x-2e62273b.jpg 2x"
-          media="(min-width: 1440px)"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/tublet/restoraunt_page/hero_slider/2image@1x.jpg 1x,
-            /img/tublet/restoraunt_page/hero_slider/2image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/2image@1x-cb26e19c.jpg 1x, /team-project-mimino/assets/2image@2x-a8a8b4d3.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/mobile/restoraunt_page/hero_slider/2image@1x.jpg 1x,
-            /img/mobile/restoraunt_page/hero_slider/2image@2x.jpg 2x
-          "
           media="(max-width: 767px)"
+          srcset="/team-project-mimino/assets/2image@1x-40f25ce2.jpg 1x, /team-project-mimino/assets/2image@2x-e2c66d0e.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/2image@1x.jpg"
-          alt="dish"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/2image@1x-40f25ce2.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
-    <div>
+    <div class="slider-img">
       <picture>
         <source
+          media="(min-width: 1440px)"
           srcset="/team-project-mimino/assets/3image@1x-aa155298.jpg 1x, /team-project-mimino/assets/3image@2x-a979f20a.jpg 2x"
-          media="(min-width: 1440px)"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/restoraunt_page/hero_slider/3image@1x.jpg        1x,
-            /img/tublet/restoraunt_page/hero_slider/3image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/3image@1x-6c79ba32.jpg 1x, /team-project-mimino/assets/3image@2x-0a2d77e7.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /src/img/mobile/restoraunt_page/hero_slider/3image@1x.jpg 1x,
-            /src/img/mobile/restoraunt_page/hero_slider/3image@2x.jpg 2x
-          "
           media="(max-width: 767px)"
+          srcset="/team-project-mimino/assets/3image@1x-0a8e9ec4.jpg 1x, /team-project-mimino/assets/3image@2x-6e6977bc.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/3image@1x.jpg"
-          alt="сooking"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/3image@1x-0a8e9ec4.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
-    <div>
+    <div class="slider-img">
       <picture>
         <source
+          media="(min-width: 1440px)"
           srcset="/team-project-mimino/assets/4image@1x-5c5404da.jpg 1x, /team-project-mimino/assets/4image@2x-4362de36.jpg 2x"
-          media="(min-width: 1440px)"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/tublet/restoraunt_page/hero_slider/4image@1x.jpg 1x,
-            /img/tublet/restoraunt_page/hero_slider/4image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/4image@1x-78c24566.jpg 1x, /team-project-mimino/assets/4image@2x-ac8cfbd9.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/mobile/restoraunt_page/hero_slider/4image@1x.jpg 1x,
-            /img/mobile/restoraunt_page/hero_slider/4image@2x.jpg 2x
-          "
-          media="(max-width: 767px)"
+          media="(max-width: 768px)"
+          srcset="/team-project-mimino/assets/4image@1x-79f35bb9.jpg 1x, /team-project-mimino/assets/4image@2x-b1a43958.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/4image@1x.jpg"
-          alt="bar stand"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/4image@1x-79f35bb9.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
-    <div>
+    <div class="slider-img">
       <picture>
         <source
+          media="(min-width: 1440px)"
           srcset="/team-project-mimino/assets/5image@1x-efb4d849.jpg 1x, /team-project-mimino/assets/5image@2x-e7d2e4d4.jpg 2x"
-          media="(min-width: 1440px)"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/tublet/restoraunt_page/hero_slider/5image@1x.jpg 1x,
-            /img/tublet/restoraunt_page/hero_slider/5image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/5image@1x-85a0170c.jpg 1x, /team-project-mimino/assets/5image@2x-3d064b99.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/mobile/restoraunt_page/hero_slider/5image@1x.jpg 1x,
-            /img/mobile/restoraunt_page/hero_slider/5image@2x.jpg 2x
-          "
           media="(max-width: 767px)"
+          srcset="/team-project-mimino/assets/5image@1x-fe914da2.jpg 1x, /team-project-mimino/assets/5image@2x-7e5df6f7.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/5image@1x.jpg"
-          alt="glasses"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/5image@1x-fe914da2.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
-    <div>
+    <div class="slider-img">
       <picture>
         <source
-          srcset="/team-project-mimino/assets/6image@1x-1eea457b.jpg 1x, /team-project-mimino/assets/6image@2x-2c784a3f.jpg 2x"
           media="(min-width: 1440px)"
+          srcset="/team-project-mimino/assets/6image@1x-1eea457b.jpg 1x, /team-project-mimino/assets/6image@2x-2c784a3f.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/tublet/restoraunt_page/hero_slider/6image@1x.jpg 1x,
-            /img/tublet/restoraunt_page/hero_slider/6image@2x.jpg 2x
-          "
           media="(min-width: 768px)"
+          srcset="/team-project-mimino/assets/6image@1x-d56b1be0.jpg 1x, /team-project-mimino/assets/6image@2x-77327e26.jpg 2x"
+          type="image/jpg"
         />
         <source
-          srcset="
-            /img/mobile/restoraunt_page/hero_slider/6image@1x.jpg 1x,
-            /img/mobile/restoraunt_page/hero_slider/6image@2x.jpg 2x
-          "
           media="(max-width: 767px)"
+          srcset="/team-project-mimino/assets/6image@1x-bc6b84c7.jpg 1x, /team-project-mimino/assets/6image@2x-c88a847d.jpg 2x"
+          type="image/jpg"
         />
         <img
-          src="/img/mobile/restoraunt_page/hero_slider/6image@1x.jpg"
-          alt="empty table"
+          height="580"
+          width="436"
+          src="/team-project-mimino/assets/6image@1x-bc6b84c7.jpg"
+          alt="hotel"
+          loading="lazy"
         />
       </picture>
     </div>
@@ -595,6 +609,19 @@
     
     
 
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    
     
     
     
