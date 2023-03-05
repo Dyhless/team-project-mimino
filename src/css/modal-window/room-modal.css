@@ -9,13 +9,13 @@
 
     transition: opacity var(--transition-dur-func), visibility var(--transition-dur-func);
 }
-.backdrop.is-hidden {
+.backdrop-room.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
 
-.backdrop.is-hidden .modal-room {
+.backdrop-room.is-hidden .modal-room {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
@@ -73,7 +73,7 @@
     font-size: 28px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: var(--modal-txt-color);
+    color: #F7F7F7;
 }
 
 .part-modal-room-title {
@@ -85,6 +85,22 @@
     flex-direction: column;
 }
 
+.modal-room-form-label {
+    margin-bottom: 32px;
+}
+
 .modal-room-form-input-desc {
-    color: azure;
+    display: block;
+    margin-top: 8px;
+
+    font-size: 8px;
+    line-height: 1.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lightwhite-paragraph);
+}
+
+
+.modal-room-form-input-desc {
+    color: var(--lightwhite-paragraph);
 }
