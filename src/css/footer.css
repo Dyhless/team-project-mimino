@@ -1,0 +1,96 @@
+/* ==================== Global styles ==================== */
+
+/* .footer-section {
+  border: 0.5px solid rgba(18, 18, 18, 0.3);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  padding-bottom: 80px;
+} */
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.footer-logo-bottom {
+  display: flex;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.25;
+
+  margin-top: 3px;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+/* ==================== /Global styles ==================== */
+
+/* ==================== Mobile ==================== */
+
+@media screen and (max-width: 767px) {
+  .menu-footer {
+    display: none;
+  }
+
+  .footer-social-list {
+    gap: 14px;
+  }
+}
+
+/* ==================== /Mobile ==================== */
+
+/* ==================== Tablet ==================== */
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .menu-footer {
+    display: none;
+  }
+}
+
+/* ==================== /Tablet ==================== */
+
+/* ==================== Desctop ==================== */
+
+@media screen and (min-width: 1440px) {
+  .footer-nav {
+    padding-top: 44px;
+    padding-bottom: 80px;
+  }
+
+  .menu-footer {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .menu-footer-link {
+    font-size: 14px;
+    line-height: 1.29;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+/* ==================== /Desctop ==================== */
