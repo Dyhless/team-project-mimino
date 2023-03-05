@@ -36,6 +36,7 @@
   line-height: 1.6;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  color: #f7f7f7;
 }
 
 .header-logo--conrol {
@@ -44,6 +45,7 @@
   line-height: 1.3;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+  color: var(--lightwhite-paragraph);
 }
 
 .header-social {
