@@ -1,0 +1,173 @@
+.section-menu {
+    padding-top: 40px;
+    padding-bottom: 64px;
+    background-color: var(--backcolor-dark);
+    color: #F7F7F7;
+  
+} 
+/* h2 */
+.section-title-menu {
+
+font-weight: 700;
+font-size: 32px;
+line-height: 1.25em;
+
+text-transform: uppercase;
+
+color: #F7F7F7;
+text-align: center;
+
+}
+
+/* h3 */
+.title-menu {
+font-family: 'DM Sans', sans-serif;
+font-style: italic;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.33;
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #F7F7F7;
+margin-bottom: 32px
+}
+
+.btn-book {
+min-width: 140px;
+height: 40px;
+Padding: 8px 24px;
+color: var(--burger-symbols-white);
+text-transform: uppercase;
+background-color: var(--btns-darkborder);
+border: 0.8px solid #F7F7F7;
+border-radius: 32px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71em;
+display: block;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+transition: background-color var( --transition-dur-func),
+color var(--transition-dur-func);
+}
+
+.btn-book:hover,
+.btn-book:focus {
+background-color: var(btns-whiteborder);
+color: var(paragraph-blackcolor);
+}
+
+
+/* до іконок слайдера 39,33? */
+.menu {
+list-style: none;
+padding: 36px 20px 39.33px 20px;
+
+}
+
+.menu-slider {
+
+}
+.menu-part {
+   list-style: disc;
+}
+
+.menu-item {
+font-size: 14px;
+font-weight: 500;
+text-transform: none;
+color: #F7F7F7;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu-weight {
+display: inline-block;
+
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+color: #D8D7D7;
+}
+.menu-txt {
+max-width: 233px;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.5;
+letter-spacing: 0.18em;
+color: var( --menu-paragraph-light);
+text-transform: none;
+}
+
+.menu-price {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.29;
+color: #F7F7F7;
+
+}
+
+.menu-details {
+display: flex;
+justify-content: space-between;
+padding-top: 8px;
+padding-bottom: 14px;
+}
+
+.tasty {
+
+padding-bottom: 14px;
+}
+ .menu-list::after {
+content: "";
+max-width: 335px;
+height: 1px;
+margin-bottom: 14px;
+background-color: rgba(255, 255, 255, 0.5);
+display: block;
+} 
+
+
+@media screen and (min-width: 768px) {
+    .section-menu {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+    
+    .section-title-menu {
+font-size: 40px;
+line-height: 1.1em;
+}
+
+.title-menu {
+font-size: 24px;
+line-height: 1em;
+}
+.btn-book {
+    margin-left: 20px;
+}
+
+    .menu-txt {
+        font-size: 12px;
+    }
+    .menu-weight {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-menu {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn-book {
+    font-size: 18px;
+    line-height: 1.33em;
+
+}
+
+}
