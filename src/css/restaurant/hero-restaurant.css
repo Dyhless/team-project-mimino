@@ -1,0 +1,55 @@
+.hero-restaurant {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: var(--backcolor-light);
+}
+
+.hero-restaurant-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--paragraph-blackcolor);
+  margin-bottom: 24px;
+}
+
+.hero-restaurant-btn-list {
+  display: flex;
+}
+
+.hero-restaurant-btn {
+  border: 0.8px solid var(--paragraph-blackcolor);
+  border-radius: 32px;
+  padding: 8px 18px;
+  font-weight: 400;
+  color: var(--paragraph-blackcolor);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-right: 12px;
+  height: 32px;
+  min-width: 123px;
+
+  background-color: transparent;
+  transition: color var(--transition-dur-func),
+    background-color var(--transition-dur-func);
+}
+
+.hero-restaurant-btn:hover,
+.hero-restaurant-btn:focus {
+  color: var(--h1-h2-h3-whitecolor);
+  background-color: var(--backcolor-dark);
+}
+
+.hero-restaurant-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--paragraph-blackcolor);
+}
