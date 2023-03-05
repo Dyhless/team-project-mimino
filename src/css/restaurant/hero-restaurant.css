@@ -12,3 +12,153 @@
   text-transform: uppercase;
   color: var(--paragraph-blackcolor);
 }
+
+.hero-restaurant-btns {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.hero-restaurant-btn {
+  padding: 8px 18px;
+  gap: 10px;
+  min-width: 128px;
+  height: 34px;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  margin-right: 12px;
+
+  text-transform: uppercase;
+  color: var(--paragraph-blackcolor);
+  background-color: transparent;
+  transition: color var(--transition-dur-func),
+    background-color var(--transition-dur-func);
+}
+
+.hero-restaurant-btn:hover,
+.hero-restaurant-btn:focus {
+  color: var(--h1-h2-h3-whitecolor);
+  background-color: var(--backcolor-dark);
+}
+
+.slider-container {
+  position: relative;
+  min-width: 520px;
+  min-height: 429px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    min-width: 904px;
+    min-height: 548px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slider-container {
+    min-width: 904px;
+    min-height: 580px;
+  }
+}
+
+.slider-img {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-img {
+    margin-right: 32px;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 100%;
+  margin-top: 24px;
+  z-index: 10;
+  font-size: 0;
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev,
+  .slick-next {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slick-prev,
+  .slick-next {
+    margin-top: 16px;
+  }
+}
+
+.slick-prev {
+  left: 231px;
+}
+
+.slider .slick-arrow.slick-prev {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../img/icons/slider-left-new.svg');
+  opacity: 0.3;
+  transition: opasity var(--transition-dur-func);
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev {
+    left: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-prev {
+    left: 0px;
+  }
+}
+
+.slick-next {
+  left: 299px;
+}
+.slider .slick-arrow.slick-next {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../img/icons/slider-right.svg');
+  opacity: 0.3;
+  transition: opacity var(--transition-dur-func);
+}
+
+@media screen and (min-width: 768px) {
+  .slick-next {
+    left: 668px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-next {
+    left: 68px;
+  }
+}
+
+.slider .slick-arrow.slick-next:hover,
+.slider .slick-arrow.slick-next:focus,
+.slider .slick-arrow.slick-prev:hover,
+.slider .slick-arrow.slick-prev:focus {
+  opacity: 1;
+}
+
+.hero-restaurant-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--paragraph-blackcolor);
+}
