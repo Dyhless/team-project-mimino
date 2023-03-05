@@ -17,6 +17,7 @@
           required
           pattern="[a-zA-Z]+"
           minlength="2"
+          placeholder="YOUR NAME"
         />
         <span class="modal-room-form-input-desc"
           >Who should book a table for?</span
@@ -29,36 +30,53 @@
           class="modal-room-form-input"
           required
           title="xxx-xxx-xx-xx"
+          placeholder="+ 38 () "
         />
         <span class="modal-room-form-input-desc">Phone number</span>
       </label>
-      <label class="modal-room-form-label">
+      <label class="modal-room-form-label date-label">
+        <input
+          type="date"
+          placeholder="TODAY"
+          min="2023-03-01"
+          max="2024-01-01"
+          class="modal-room-form-input modal-room-date"
+        />
+        <svg class="modal-icon" width="20" height="20">
+          <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+        </svg>
+        <span class="modal-room-form-input-desc">Check-in date</span>
+      </label>
+      <label class="modal-room-form-label date-label">
         <input
           type="date"
           min="2023-03-01"
           max="2024-01-01"
           class="modal-room-form-input modal-room-date"
         />
+        <svg class="modal-icon" width="20" height="20">
+          <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+        </svg>
         <span class="modal-room-form-input-desc">Check-in date</span>
       </label>
-      <label class="modal-room-form-label">
-        <input
-          type="date"
-          min="2023-03-01"
-          max="2024-01-01"
-          class="modal-room-form-input modal-room-date"
-        />
-        <span class="modal-room-form-input-desc">Check-in date</span>
-      </label>
-      <label class="modal-room-form-label">
-        <select name="category">
-          <option value="double-lux">DOUBLE LUXURY ROOM</option>
+      <label class="modal-room-form-label date-label">
+        <select
+          name="category"
+          class="modal-room-form-input option modal-room-date"
+        >
+          <option value="double-lux">DOUBLE SUITE</option>
           <option value="triple-room">TRIPLE ROOM</option>
           <option value="four-seater-room">FOUR-SEATER ROOM</option>
-          <option value="double-suite">DOUBLE SUITE</option>
+          <option value="double-suite">DOUBLE LUXURY ROOM</option>
         </select>
+        <svg class="modal-icon" width="20" height="20">
+          <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+        </svg>
         <span class="modal-room-form-input-desc">Number category</span>
       </label>
+      <button type="submit" class="modal-room-form-btn">
+        MAKE A RESERVATION
+      </button>
     </form>
   </div>
 </div>
