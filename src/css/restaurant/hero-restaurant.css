@@ -1,7 +1,14 @@
 .hero-restaurant {
   overflow: hidden;
   padding-top: 40px;
+  padding-bottom: 64px;
   background-color: var(--backcolor-light);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-restaurant {
+    padding-bottom: 120px;
+  }
 }
 
 .hero-restaurant-title {
@@ -13,9 +20,22 @@
   color: var(--paragraph-blackcolor);
 }
 
+@media screen and (min-width: 768px) {
+  .hero-restaurant-title {
+    margin-bottom: 32px;
+    font-size: 80px;
+  }
+}
+
 .hero-restaurant-btns {
   display: flex;
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-restaurant-btns {
+    margin-bottom: 54px;
+  }
 }
 
 .hero-restaurant-btn {
@@ -43,21 +63,27 @@
   background-color: var(--backcolor-dark);
 }
 
-.slider-container {
+@media screen and (min-width: 768px) {
+  .hero-restaurant-btn {
+    margin-right: 14px;
+  }
+}
+
+.hero-restaurant-slider {
   position: relative;
   min-width: 520px;
   min-height: 429px;
 }
 
 @media screen and (min-width: 768px) {
-  .slider-container {
+  .hero-restaurant-slider {
     min-width: 904px;
     min-height: 548px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .slider-container {
+  .hero-restaurant-slider {
     min-width: 904px;
     min-height: 580px;
   }
@@ -155,10 +181,18 @@
 }
 
 .hero-restaurant-desc {
+  margin-top: 100px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--paragraph-blackcolor);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-restaurant-desc {
+    margin-top: 40px;
+    width: 338px;
+  }
 }
