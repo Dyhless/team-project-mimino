@@ -153,11 +153,12 @@
 
   .map-desctop {
     display: flex;
-    
   }
 
   .map {
     margin-right: 32px;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .location-list {
