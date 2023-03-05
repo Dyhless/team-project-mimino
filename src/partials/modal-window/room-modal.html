@@ -1,0 +1,42 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/src/img/icons/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-title">
+      BOOK <span class="part-modal-title">A room</span>
+    </h1>
+    <form class="modal-form" name="modal-form" autocomplete="off">
+      <label class="modal-form-label">
+        <span class="modal-form-input-desc">Your name</span>
+        <span class="modal-form-input-wrapper">
+          <input
+            type="text"
+            name="user_name"
+            class="modal-form-input"
+            required
+            pattern="[a-zA-Z]+"
+            minlength="2"
+          />
+        </span>
+      </label>
+      <label class="modal-form-label">
+        <span class="modal-form-input-desc">Phone</span>
+        <span class="modal-form-input-wrapper">
+          <input
+            type="tel"
+            name="user_phone"
+            class="modal-form-input"
+            required
+            title="xxx-xxx-xx-xx"
+          />
+          <svg class="modal-form-input-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </span>
+      </label>
+    </form>
+  </div>
+</div>
