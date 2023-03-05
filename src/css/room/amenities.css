@@ -1,7 +1,7 @@
 .section-amenities {
   /* padding: 40px 20px 64px 20px; */
   padding-top: 40px;
-  padding-bottom: 64px;
+
   background-color: var(--backcolor-dark);
 }
 .container-amenities {
@@ -61,4 +61,10 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+}
+.btn-amenitiens:hover,
+.btn-amenitiens:focus {
+  border: 0.8px solid var(--white-header-color);
+  background-color: var(--white-header-color);
+  color: var(--burger-symbols-dark);
 }
