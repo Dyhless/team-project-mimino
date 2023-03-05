@@ -16,8 +16,8 @@
     />
     <title>Room</title>
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/styles-fac82e35.js"></script>
-    <link rel="stylesheet" href="/team-project-mimino/assets/styles-e8d7de1a.css">
+    <script type="module" crossorigin src="/team-project-mimino/assets/room-modal-ea79b097.js"></script>
+    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-3168c167.css">
   </head>
   <body>
     <a href="index.html">Main</a>
@@ -107,7 +107,71 @@
 </section>
 
     
-    
+    <div class="backdrop-room is-hidden" data-modal>
+  <div class="modal-room">
+    <button type="button" class="modal-room-close-btn" data-modal-close>
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/team-project-mimino/assets/sprite-576cd30f.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-room-title">
+      BOOK <span class="part-modal-room-title">A room</span>
+    </h1>
+    <form class="modal-room-form" name="modal-room-form" autocomplete="off">
+      <label class="modal-room-form-label">
+        <input
+          type="text"
+          name="user_name"
+          class="modal-room-form-input"
+          required
+          pattern="[a-zA-Z]+"
+          minlength="2"
+        />
+        <span class="modal-room-form-input-desc"
+          >Who should book a table for?</span
+        >
+      </label>
+      <label class="modal-room-form-label">
+        <input
+          type="tel"
+          name="user_phone"
+          class="modal-room-form-input"
+          required
+          title="xxx-xxx-xx-xx"
+        />
+        <span class="modal-room-form-input-desc">Phone number</span>
+      </label>
+      <label class="modal-room-form-label">
+        <input
+          type="date"
+          min="2023-03-01"
+          max="2024-01-01"
+          class="modal-room-form-input modal-room-date"
+        />
+        <span class="modal-room-form-input-desc">Check-in date</span>
+      </label>
+      <label class="modal-room-form-label">
+        <input
+          type="date"
+          min="2023-03-01"
+          max="2024-01-01"
+          class="modal-room-form-input modal-room-date"
+        />
+        <span class="modal-room-form-input-desc">Check-in date</span>
+      </label>
+      <label class="modal-room-form-label">
+        <select name="category">
+          <option value="double-lux">DOUBLE LUXURY ROOM</option>
+          <option value="triple-room">TRIPLE ROOM</option>
+          <option value="four-seater-room">FOUR-SEATER ROOM</option>
+          <option value="double-suite">DOUBLE SUITE</option>
+        </select>
+        <span class="modal-room-form-input-desc">Number category</span>
+      </label>
+    </form>
+  </div>
+</div>
+
     
 
     
