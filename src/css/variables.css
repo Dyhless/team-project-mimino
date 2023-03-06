@@ -6,18 +6,23 @@
    --backcolor-dark: #121212;
    --backcolor-light: #F6F6F6;
    --h1-h2-h3-blackcolor: #121212;
-   --h1-h2-h3-whitecolor: #F6F6F6;
+   --h1-h2-h3-whitecolor: #F7F7F7;
    --adress-color: #000000;
    --paragraph-blackcolor: #121212;
-   --paragraph-whitecolor: #F6F6F6;
+   --paragraph-whitecolor: #F7F7F7;
    --lightwhite-paragraph: #D8D7D7;
    --svg-dark: #121212;
    --svg-light: #F6F6F6;
-   --menu-paragraph-light: rgba(216, 215, 215, 0.5);
+   --menu-paragraph-light: rgba(216, 215, 215, 0.502);
    --btns-darkborder: #121212;
    --btns-whiteborder: #F6F6F6;
    --burger-symbols-white: #F6F6F6;
    --burger-symbols-dark: #121212;
+   --hover-backbtn-black: #121212;
+   --hover-backbtn-white: #FFFFFF;
+   --hover-textbtn-black: #F7F7F7;
+   --hover-textbtn-white: #121212;
+
 
    /* FONTS */
 

@@ -1,0 +1,166 @@
+.backdrop-room {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+
+    transition: opacity var(--transition-dur-func), visibility var(--transition-dur-func);
+}
+.backdrop-room.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop-room.is-hidden .modal-room {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.modal-room {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding-top: 24px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    width: 335px;
+
+    background-color: var(--backcolor-dark);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--transition-dur-func);
+}
+
+.modal-room-close-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    color: var(--backcolor-light);
+    transition: transform var(--transition-dur-func);
+}
+
+.modal-room-close-btn:hover,
+.modal-room-close-btn:focus{
+    transform: rotate(270deg);
+}
+
+.modal-close-btn-icon {
+    fill: currentColor;
+}
+
+.modal-room-title {
+    display: block;
+    margin-bottom: 40px;
+    
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+.part-modal-room-title {
+    font-style: italic;
+}
+/* ================Modal Form=========== */
+.modal-room-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-room-form-label {
+    margin-bottom: 32px;
+}
+
+.modal-room-form-input-desc {
+    display: block;
+    margin-top: 8px;
+
+    font-size: 8px;
+    line-height: 1.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--lightwhite-paragraph);
+}
+
+.modal-room-form-input {
+    padding-bottom: 18px;
+    color: #F7F7F7;
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+    outline: transparent;
+
+    transition: border-color var(--transition-dur-func);
+}
+.modal-room-form-input::placeholder, .option {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+.modal-room-form-input:focus {
+    border-color: #F7F7F7;
+}
+
+.date-label{
+    position: relative;
+}
+
+.modal-icon {
+    height: 36px;
+    pointer-events: none;
+    background-color: var(--backcolor-dark);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    fill: #F7F7F7;
+}
+
+.modal-room-form-btn {
+    display: inline-block;
+    align-self: center;
+    min-width: 235px;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    padding: 14px 48px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+    background-color: var(--paragraph-blackcolor);
+
+    transition: background-color var(--transition-dur-func), color var(--transition-dur-func);
+}
+
+.modal-room-form-btn:hover,
+.modal-room-form-btn:focus {
+    background-color: #F7F7F7;
+    color: var(--paragraph-blackcolor);
+}
+
+/* ================/Modal Form=========== */

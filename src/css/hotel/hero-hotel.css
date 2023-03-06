@@ -1,8 +1,28 @@
 .hotel-hero {
     overflow: hidden;
     padding-top: 40px;
-    padding-bottom: 100px;
+    /* padding-bottom: 64px; */
     background-color: var(--backcolor-light);
+}
+
+@media screen and (min-width: 768px){
+    .hotel-hero{
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-hero {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .hero-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 369px;
+    }
 }
 
 .hotel-hero-title {
@@ -14,11 +34,39 @@
     color: var(--paragraph-blackcolor);
 }
 
+@media screen and (min-width: 768px) {
+    .hotel-hero-title {
+        padding-bottom: 32px;
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-hero-title {
+        padding-bottom: 32px;
+        font-size: 90px;
+    }
+}
+
 .hero-list-btn {
+    display: flex;
     margin-bottom: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-list-btn {
+        margin-bottom: 54px;
+    }
+}
+
 .hero-list-btn :not(:last-child) {
     margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-list-btn :not(:last-child) {
+        margin-right: 14px;
+    }
 }
 
 .hotel-hero-btn {
@@ -42,60 +90,114 @@
     background-color: var(--backcolor-dark);
 }
 
-
 .slider-container {
     position: relative;
     min-width: 520px;
     min-height: 429px;
 }
+
+@media screen and (min-width: 768px) {
+    .slider-container {
+        min-width: 904px;
+        min-height: 548px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slider-container {
+        min-width: 904px;
+        min-height: 580px;
+    }
+}
+
 .slider-img {
     margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider-img {
+        margin-right: 32px;
+    }
 }
 .slick-prev:before,
 .slick-next:before {
     display: none;
 }
-
-/* .slick-prev,
-.slick-next { 
-    position: absolute;
-    top: 100%;
-    left: 268px;
-    margin-top: 24px;
-} */
-
-.slider .slick-arrow {
+.slick-prev, .slick-next {
     position: absolute;
     top: 100%;
     margin-top: 24px;
-    
-   
     z-index: 10;
     font-size: 0;
     width: 36px;
     height: 36px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .slick-prev,
+    .slick-next {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .slick-prev,
+    .slick-next {
+        margin-top: 16px;
+    }
+}
+
+.slick-prev{
+    left: 231px;
 }
 
 .slider .slick-arrow.slick-prev {
-    left: 251px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../img/icons/left.svg');
+    background-image: url('../../img/icons/slider-left-new.svg');
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
 }
 
+@media screen and (min-width: 768px) {
+    .slick-prev {
+        left: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slick-prev {
+        left: 0px;
+    }
+}
+
+.slick-next {
+    left: 299px;
+}
 .slider .slick-arrow.slick-next {
-    right: 185px;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../img/icons/slider-right.svg');
     opacity: 0.3;
-    transition: opasity var(--transition-dur-func);
+    transition: opacity var(--transition-dur-func);
+}
+
+@media screen and (min-width: 768px) {
+    .slick-next {
+        left: 668px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slick-next {
+        left: 68px;
+    }
 }
 
 .slider .slick-arrow.slick-next:hover,
-.slider .slick-arrow.slick-prev:hover {
+.slider .slick-arrow.slick-next:focus,
+.slider .slick-arrow.slick-prev:hover,
+.slider .slick-arrow.slick-prev:focus {
     opacity: 1;
 }
 
@@ -107,6 +209,19 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--paragraph-blackcolor);
+}
+@media screen and (min-width: 768px){
+    .hotel-hero-description {
+        margin-top: 40px;
+        width: 338px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-hero-description {
+        margin-top: -36px;
+        width: 338px;
+    }
 }
 
 .part-hotel-hero-description {
