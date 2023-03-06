@@ -10,7 +10,6 @@
   padding-left: 0;
   padding-right: 0;
   color: var(--paragraph-whitecolor);
-
   text-transform: uppercase;
 }
 .container-amenities:not(:last-child) {
@@ -67,4 +66,34 @@
   border: 0.8px solid var(--white-header-color);
   background-color: var(--white-header-color);
   color: var(--burger-symbols-dark);
+}
+
+@media screen and (min-width: 768px) {
+  .container-amenities {
+    max-width: 768px;
+  }
+  .head-amenities {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .list-amenities {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+  }
+  .btn-amenitiens {
+    position: absolute;
+    top: 352px;
+    left: 32px;
+    min-width: 143px;
+    height: 40px;
+  }
+  .cont-tab {
+    padding-bottom: 80px;
+  }
+  .thumb-amenities {
+    padding-top: 82px;
+  }
 }
