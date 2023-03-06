@@ -1,5 +1,5 @@
 .about_k {
-    /* padding-top: 64px; */
+     padding-top: 64px;
     padding-bottom: 64px;
 }
 
@@ -43,6 +43,7 @@
 
 @media screen and (min-width: 768px) {
     .about_k {
+        padding-top: 80px;
         padding-bottom: 80px;
         position: relative;
     }
@@ -51,7 +52,7 @@
         max-height: 598px; 
         position: absolute;
         right: 16px;
-        top: 0;
+        top: 40px;
         margin-bottom: 0;
     }
 
@@ -89,7 +90,8 @@
 @media screen and (min-width: 1440px) {
     .about_k {
         padding-bottom: 100px;
-        height: 698px;
+        padding-top: 100px;
+        min-height: 798px;
     }
 
     .img-food {
@@ -101,7 +103,7 @@
     .img-cook {
         position: absolute;
         left: 16px;
-        top: 0;
+        top: 50px;
         margin-bottom: 0;
         max-width: 511px;
     }
