@@ -7,6 +7,10 @@
   border-right: none;
 }
 
+.footer-line {
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
 .footer-nav {
   padding-bottom: 0;
   display: flex;
@@ -60,7 +64,7 @@
 /* ==================== Mobile ==================== */
 
 @media screen and (max-width: 767px) {
-  .footer-section {
+  .footer-line {
     margin-bottom: 32px;
   }
 
@@ -92,7 +96,7 @@
     display: none;
   }
 
-  .footer-section {
+  .footer-line {
     margin-bottom: 48px;
   }
 
@@ -107,7 +111,7 @@
 /* ==================== Desctop ==================== */
 
 @media screen and (min-width: 1440px) {
-  .footer-section {
+  .footer-line {
     margin-bottom: 80px;
   }
 
