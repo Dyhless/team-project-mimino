@@ -1,0 +1,205 @@
+
+.section-hotel-main {
+    background: var(--backcolor-dark);
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.hotel-main {
+    font-family: 'DM Sans';
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--h1-h2-h3-whitecolor);
+    margin-bottom: 32px;
+}
+
+.hotel-main-title {
+    font-weight: 500;
+    font-size: 40px;  
+}
+
+.hotel-main-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+}
+
+.hotel-main-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+
+.hotel-main-item-second {
+    display: flex;
+    gap: 19px;
+}
+
+.hotel-main-item-last {
+    display: none;
+}
+
+.hotel-main-btn {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--h1-h2-h3-whitecolor);
+}
+
+
+
+.book-btn {
+    background-color: transparent;
+    padding: 8px 18px;
+    min-width: 131px;
+    height: 34px;
+    color: var(--h1-h2-h3-whitecolor);
+
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0.8px solid #F7F7F7;
+}
+
+.btn-black:is(:hover, :focus) {
+    background: var(--white-header-color);
+    color: var(--h1-h2-h3-blackcolor);
+
+}
+
+.view-btn {
+    background-color: transparent;
+    padding: 8px 18px;
+    /* width: 131px;
+    height: 34px; */
+    color: var(--h1-h2-h3-whitecolor);
+
+
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0.8px solid #F7F7F7;
+}
+
+@media screen and (min-width: 768px) {
+    .section-hotel-main {
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+    .hotel-main {
+        display: flex;
+        gap: 32px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .hotel-main-title {
+        font-size: 68px;
+        margin-bottom: 0;
+    }
+    .hotel-main-subtitle {
+        font-size: 16px;
+        line-height: 1.35;
+    }
+    .hotel-main-img {
+        gap: 16px;
+    }
+    .hotel-main-item-first {
+        order: 2;
+    }
+    .hotel-main-item-second {
+        order: 1;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .hotel-main-item-last {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .hotel-main-btn {
+        align-items: center;
+        margin-top: 40px;
+        gap: 14px;
+    }
+    .book-btn {
+        padding: 8px 24px;
+        min-width: 143px;
+        height: 40px;
+    }
+        .view-btn {
+            padding: 8px 24px;
+        }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-main-container {
+        position: relative;
+    }
+    .section-hotel-main {
+        padding-top: 44px;
+        padding-bottom: 60px;
+    }
+
+    .hotel-main {
+        width: 634px;
+        justify-content: flex-start;
+    }
+
+    .hotel-main-subtitle {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .hotel-main-img {
+        gap: 32px;
+    }
+
+    .hotel-main-item-first {
+        width: 420px;
+    }
+
+    .hotel-main-item-second {
+        width: 320px;
+        gap: 28px;
+    }
+
+    .hotel-main-item-last {
+        width: 320px;
+        gap: 28px;
+    }
+
+    .hotel-main-btn {
+        position: absolute;
+        top: 4px;
+        left: 1028px;
+        z-index: 1;
+        margin-top: 0;
+        width: 342px;
+    }
+
+
+
+
+    .book-btn {
+        padding: 9px 24px;
+        min-width: 170px;
+        height: 42px;
+    }
+
+    .view-btn {
+        padding: 9px 24px;
+    }
+}
