@@ -1,19 +1,17 @@
 /*---------MOBILE---------------*/
-.h-rooms {
+.h-dbl-rooms {
     background-color: var(--backcolor-light);
-    
-    }
-.container {
     padding-bottom: 64px;
     }
-.h-rooms-list {
+
+    .h-dbl-rooms-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     column-gap: 19px;
     row-gap: 20px; 
     }
-.h-rooms-title {   
+.h-dbl-rooms-title {   
     font-weight: 700;
     font-size: 32px;
     line-height: 1.25;
@@ -25,7 +23,7 @@
     margin-bottom: 32px;
     max-width: 241px;
     }
-.h-rooms-text {
+.h-dbl-rooms-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -35,7 +33,7 @@
     color: var(--paragraph-blackcolor);
     margin-bottom: 24px;
     }
-.h-rooms-subtext {
+.h-dbl-rooms-subtext {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -44,7 +42,7 @@
     text-transform: uppercase;
     color: var(--paragraph-blackcolor);
     }
-.h-rooms-btn-list {
+.h-dbl-rooms-btn-list {
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -52,7 +50,7 @@
     gap: 12px;
     margin-top: 28px;
     }
-.h-rooms-btn {
+.h-dbl-rooms-btn {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
@@ -72,8 +70,8 @@
     transition: color var(--transition-dur-func),
     background-color var(--transition-dur-func);
     }
-.h-rooms-btn:hover, 
-.h-rooms-btn:focus {
+.h-dbl-rooms-btn:hover, 
+.h-dbl-rooms-btn:focus {
     color: var(--h1-h2-h3-whitecolor);
     background-color: var(--backcolor-dark);
     }
@@ -82,45 +80,43 @@
 /*---------------/TABLET----------------*/
 
 @media screen and (min-width: 768px) {
-.container{
+.h-dbl-rooms{
     padding-bottom: 100px;
     }
-.h-rooms-list{
+.h-dbl-rooms-wrapper{
     max-height: 468px;
     row-gap: 32px;
     column-gap: 32px;
     flex-direction: column;
     align-items: flex-end;
     }
-.h-rooms-title {
+.h-dbl-rooms-title {
     font-size: 40px;
     line-height: 1.1;
     margin-top: 40px;
     max-width: 100%;}
-.h-rooms-img3{
-    max-height: 468px;
-    }
-.h-rooms-paragraph{
+
+.h-dbl-rooms-paragraph{
     display: flex;
     gap:32px;
     }
-.h-rooms-text{
+.h-dbl-rooms-text{
     max-width: 369px;
     margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
     }
-.h-rooms-subtext{
+.h-dbl-rooms-subtext{
     font-size: 18px;
     line-height: 1.33;
     }
-.h-rooms-btn-list{
+.h-dbl-rooms-btn-list{
     gap: 14px;
     margin-top: 40px;
     justify-content: flex-end;
     }
-.h-rooms-btn {
+.h-dbl-rooms-btn {
     padding: 8px 24px;
     min-width: 129px;
     max-height: 40px;
@@ -131,40 +127,40 @@
 /*---------------DESKTOP----------------*/
 
 @media screen and (min-width: 1440px) {
-.h-rooms-list{
+    .h-dbl-rooms-wrapper{
     max-height: 762px;
     flex-direction: row;
     align-items: center;     
 }
-.h-rooms-img3{
-    max-height: 100%;
-}
-.h-rooms-text{
+
+.h-dbl-rooms-text{
     max-width: 355px; 
 }
-.h-rooms-title{
+.h-dbl-rooms-title{
     margin-bottom: 40px;
 }
-.h-rooms-subtext{
+.h-dbl-rooms-subtext{
     max-width: 299px;}
 
-.h-rooms-btn-list{
+.h-dbl-rooms-btn-list{
     min-width: 332px;
     display: flex;
     align-items: flex-start;
     max-height: 42px;
+    
     }
-.h-rooms-description{
+.h-dbl-rooms-description{
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+     
     }
-.h-rooms-entire-txt{
+.h-dbl-rooms-entire-txt{
     display: flex;
     max-width:686px;
     flex-direction: column;
     }
 
-.h-rooms-btn {
+.h-dbl-rooms-btn {
     min-width: 152px;
     max-height: 42px;
     font-size: 18px;
