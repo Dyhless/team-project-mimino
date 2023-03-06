@@ -100,7 +100,67 @@
     color: var(--lightwhite-paragraph);
 }
 
+.modal-room-form-input {
+    padding-bottom: 18px;
+    color: #F7F7F7;
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+    outline: transparent;
 
-.modal-room-form-input-desc {
-    color: var(--lightwhite-paragraph);
+    transition: border-color var(--transition-dur-func);
 }
+.modal-room-form-input::placeholder, .option {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+.modal-room-form-input:focus {
+    border-color: #F7F7F7;
+}
+
+.date-label{
+    position: relative;
+}
+
+.modal-icon {
+    height: 36px;
+    pointer-events: none;
+    background-color: var(--backcolor-dark);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    fill: #F7F7F7;
+}
+
+.modal-room-form-btn {
+    display: inline-block;
+    align-self: center;
+    min-width: 235px;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    padding: 14px 48px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+    background-color: var(--paragraph-blackcolor);
+
+    transition: background-color var(--transition-dur-func), color var(--transition-dur-func);
+}
+
+.modal-room-form-btn:hover,
+.modal-room-form-btn:focus {
+    background-color: #F7F7F7;
+    color: var(--paragraph-blackcolor);
+}
+
+/* ================/Modal Form=========== */
