@@ -1,8 +1,18 @@
 /* ==================== Global styles ==================== */
 
+.footer-section {
+  border: 0.5px solid rgba(18, 18, 18, 0.3);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
 .footer-nav {
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
+
+  align-items: center;
 }
 
 .footer-logo {
@@ -44,9 +54,13 @@
 /* ==================== Mobile ==================== */
 
 @media screen and (max-width: 767px) {
+  .footer-section {
+    margin-bottom: 32px;
+  }
+
   .footer-nav {
     padding-top: 24px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
   }
 
   .menu-footer {
@@ -68,13 +82,17 @@
 /* ==================== Tablet ==================== */
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .footer-nav {
-    padding-top: 32px;
-    padding-bottom: 80px;
-  }
-
   .menu-footer {
     display: none;
+  }
+
+  .footer-section {
+    margin-bottom: 48px;
+  }
+
+  .footer-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -83,6 +101,10 @@
 /* ==================== Desctop ==================== */
 
 @media screen and (min-width: 1440px) {
+  .footer-section {
+    margin-bottom: 80px;
+  }
+
   .footer-nav {
     padding-top: 44px;
     padding-bottom: 80px;
