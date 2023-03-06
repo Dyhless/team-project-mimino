@@ -152,12 +152,12 @@
 
 
 
-/* =======Slider======================================= */
+/* Slider */
 .slider-container {
     position: relative;
 }
 
-/* Slider Positioning. (.parooh-slider-wraper On .container.parooh)*/
+/* Slider Positioning*/
 .parooh-slider-wraper {
     position: absolute;
     top: 218px;
