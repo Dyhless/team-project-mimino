@@ -1,0 +1,73 @@
+/* Page rooms Hero / parooh */
+/* Container Parooh */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .container.parooh {
+    padding-top: 40px;
+    padding-bottom: 64px;
+}}
+
+@media screen and (min-width: 375px) {
+    .container.parooh {
+    max-width: 375px;
+    margin: 0 auto;
+}}
+
+@media screen and (min-width: 768px) {
+    .container.parooh {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}}
+
+@media screen and (min-width: 1440px) {
+    .container.parooh {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}}
+
+/* Text part Parooh */
+.text-part-parooh {
+}
+
+/* Main Title */
+.main-title-parooh {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+/* Text Parooh */
+.text-parooh {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+/* Button Parooh "Viev Prices" */
+.btn-parooh {
+    display: block;
+    width: 117px;
+    height: 34px;
+    padding: 8px 17px;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    background-color: transparent;
+
+    color: #121212;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
