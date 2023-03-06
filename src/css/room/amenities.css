@@ -97,3 +97,43 @@
     padding-top: 82px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .thumb-flex1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    margin-bottom: 100px;
+  }
+  .thumb-flex2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 230px;
+    margin-bottom: 100px;
+  }
+
+  .btn-amenitiens {
+    left: 518px;
+    top: 427px;
+    min-width: 170px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .container-amenities {
+    max-width: 1440px;
+  }
+  .thumb-absolute {
+    left: 518px;
+    top: 208px;
+  }
+  .thumb-amenities {
+    padding-top: 0;
+  }
+  .cont-tab {
+    padding-bottom: 100px;
+  }
+}
