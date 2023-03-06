@@ -63,7 +63,7 @@ color: var(paragraph-blackcolor);
 
 /* до іконок слайдера 39,33? */
 .menu {
-list-style: none;
+list-style: none; 
 padding: 36px 20px 39.33px 20px;
 
 }
@@ -140,7 +140,9 @@ margin-bottom: 14px;
 background-color: rgba(255, 255, 255, 0.5);
 display: block;
 } 
-
+.desktop {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     .section-menu {
@@ -179,5 +181,10 @@ line-height: 1em;
     line-height: 1.33em;
 
 }
-
+.desktop {
+    display: flex;
+}
+.slider-menu {
+    display: none;
+}
 }
