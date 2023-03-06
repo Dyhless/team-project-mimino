@@ -1,5 +1,9 @@
 /* ==================== Global styles ==================== */
 
+.footer-section {
+  padding-bottom: 0;
+}
+
 .footer-nav {
   display: flex;
   justify-content: space-between;
