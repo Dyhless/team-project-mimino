@@ -11,7 +11,7 @@
 font-weight: 700;
 font-size: 32px;
 line-height: 1.25em;
-
+padding-bottom: 36px;
 text-transform: uppercase;
 
 color: var(--h1-h2-h3-whitecolor);
@@ -61,16 +61,18 @@ color: var(paragraph-blackcolor);
 }
 
 
-/* до іконок слайдера 39,33? */
-.menu {
-list-style: none; 
-padding: 36px 20px 39.33px 20px;
-
-}
-
-/* .menu-slider {
+/* .slider-menu {
 
 } */
+
+.slider-item {
+max-width: 335px;
+
+/* Корегувати */
+max-height: 505px;
+/* margin-bottom: 56px; */
+}
+
 .menu-part::before {
     content: "";
     display: inline-block;
@@ -129,7 +131,6 @@ padding-bottom: 14px;
 }
 
 .tasty {
-
 padding-bottom: 14px;
 }
  .menu-list::after {
@@ -153,6 +154,7 @@ display: block;
     .section-title-menu {
 font-size: 40px;
 line-height: 1.1em;
+padding-bottom: 64px;
 }
 
 .title-menu {
@@ -160,7 +162,12 @@ font-size: 24px;
 line-height: 1em;
 }
 .btn-book {
-    margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: auto;
+
+    display: flex;
+
 }
 
     .menu-txt {
@@ -169,6 +176,18 @@ line-height: 1em;
     .menu-weight {
         font-size: 14px;
     }
+.slider-item {
+max-width: 515px;
+max-height: 533px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.menu-list::after {
+content: "";
+max-width: 100%;
+display: block;
+} 
 }
 
 @media screen and (min-width: 1440px) {
@@ -176,15 +195,60 @@ line-height: 1em;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.section-title-menu {
+padding-bottom: 100px;
+}
+
 .btn-book {
     font-size: 18px;
     line-height: 1.33em;
-
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 56px;
 }
 .desktop {
-    display: flex;
+    display: block;
 }
 .slider-menu {
     display: none;
+}
+
+.slider-item {
+   /* min-width: 515px; */
+    /* min-height: 533px; */
+    
+    min-width: calc((100% - var(--indent)) / var(--items));
+}
+
+:root {
+--items: 2;
+--indent: 74px;
+}
+.menu {
+    display: flex;
+    flex-basis: calccalc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    flex-wrap: wrap;
+    gap: 74px;
+    row-gap: 56px;
+    justify-content: center;
+    
+}
+.menu-price {
+
+font-size: 18px;
+line-height: 1.33em;
+}
+
+.menu-item {
+    font-size: 18px;
+}
+
+
+.menu-txt {
+    max-width: 345px;
+}
+
+.drinks {
+    margin-top: 28px;
 }
 }
