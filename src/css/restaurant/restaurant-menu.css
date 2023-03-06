@@ -2,7 +2,7 @@
     padding-top: 40px;
     padding-bottom: 64px;
     background-color: var(--backcolor-dark);
-    color: #F7F7F7;
+    color: var(--h1-h2-h3-whitecolor);
   
 } 
 /* h2 */
@@ -14,7 +14,7 @@ line-height: 1.25em;
 
 text-transform: uppercase;
 
-color: #F7F7F7;
+color: var(--h1-h2-h3-whitecolor);
 text-align: center;
 
 }
@@ -30,7 +30,7 @@ line-height: 1.33;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 
-color: #F7F7F7;
+color: --h1-h2-h3-whitecolor;
 margin-bottom: 32px
 }
 
@@ -41,7 +41,7 @@ Padding: 8px 24px;
 color: var(--burger-symbols-white);
 text-transform: uppercase;
 background-color: var(--btns-darkborder);
-border: 0.8px solid #F7F7F7;
+border: 0.8px solid var(--paragraph-whitecolor);
 border-radius: 32px;
 font-weight: 400;
 font-size: 14px;
@@ -68,18 +68,28 @@ padding: 36px 20px 39.33px 20px;
 
 }
 
-.menu-slider {
+/* .menu-slider {
 
+} */
+.menu-part::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--paragraph-whitecolor);
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
-.menu-part {
-   list-style: disc;
-}
+
+
 
 .menu-item {
 font-size: 14px;
 font-weight: 500;
 text-transform: none;
-color: #F7F7F7;
+color: var(--paragraph-whitecolor);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -91,7 +101,7 @@ display: inline-block;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.17;
-color: #D8D7D7;
+color: var(--lightwhite-paragraph);
 }
 .menu-txt {
 max-width: 233px;
@@ -107,7 +117,7 @@ text-transform: none;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.29;
-color: #F7F7F7;
+color: var(--paragraph-whitecolor);
 
 }
 
