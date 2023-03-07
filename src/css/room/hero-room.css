@@ -6,53 +6,49 @@
 
 @media screen and (min-width: 315px) and (max-width: 374px) {
     .container.parooh {
-    padding-top: 40px;
-    padding-bottom: 64px;
-    width: 100%;
-    
-    overflow: hidden;
-    position: relative;
-}}
+        padding-top: 40px;
+        padding-bottom: 64px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media screen and (min-width: 375px) and (max-width: 767px){
     .container.parooh {
-    padding-top: 40px;
-    padding-bottom: 64px;
-    max-width: 375px;
-    margin: 0 auto;
-    
-    overflow: hidden;
-    position: relative;
-}}
+        padding-top: 40px;
+        padding-bottom: 64px;
+        max-width: 375px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .container.parooh {
-    max-width: 768px;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 120px;
-    
-    overflow: hidden;
-    position: relative;
-}}
+        max-width: 768px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 120px;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .container.parooh {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-top: 169px;
-
-    overflow: hidden;
-    position: relative;
-}}
-
- room_page_hero
-
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-top: 169px;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 /* Text part Parooh */
 /* .text-part-parooh {
 } */
-
 
 /* Main Title */
 .main-title-parooh {
@@ -66,18 +62,17 @@
 }
 
 @media screen and (min-width: 768px) {
-.main-title-parooh {
-    font-size: 80px;
-    margin: 0;
-    font-size: 60px;
-    line-height: 100%;
-}}
+    .main-title-parooh {
+        font-size: 80px;
+        margin: 0;
+        font-size: 60px;
+        line-height: 100%;
+    }
+}
 
 .parooh-luxury {
     font-style: italic;
 }
-
-
 
 /* Text part Parooh */
 .text-part-parooh {
@@ -87,18 +82,20 @@
 }
 
 @media screen and (min-width: 1440px) {
-.text-part-parooh {
-    flex-direction: column;
-    width: 592px;
-    gap: 169px;
-}}
+    .text-part-parooh {
+        flex-direction: column;
+        width: 592px;
+        gap: 169px;
+    }
+}
 
 @media screen and (min-width: 768px) {
-.main-text-part-parooh {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-}}
+    .main-text-part-parooh {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+}
 
 
 
@@ -124,7 +121,6 @@
     border: 0.8px solid var(--paragraph-blackcolor);
     border-radius: 32px;
     background-color: transparent;
-
     color: var(--paragraph-blackcolor);
     font-weight: 400;
     font-size: 14px;
@@ -143,20 +139,20 @@
 }
 
 @media screen and (min-width: 768px) {
-.btn-parooh {
-    width: 129px;
-    height: 40px;
-    margin-bottom: 616px;
-}}
+    .btn-parooh {
+        width: 129px;
+        height: 40px;
+        margin-bottom: 616px;
+    }
+}
 
 @media screen and (min-width: 1440px) {
-.btn-parooh {
-    width: 152px;
-    height: 42px;
-    margin-bottom: 0;
-}}
-
-
+    .btn-parooh {
+        width: 152px;
+        height: 42px;
+        margin-bottom: 0;
+    }
+}
 
 /* Slider */
 .slider-container {
@@ -171,17 +167,18 @@
 }
 
 @media screen and (min-width: 768px) {
-.parooh-slider-wraper {
-    top: 246px;
-    left: 20;
-}}
+    .parooh-slider-wraper {
+        top: 246px;
+        left: 20;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .parooh-slider-wraper {
         top: 30px;
         left: 740px;
-}}
-
+    }
+}
 
 
 /* Slider options */
@@ -189,11 +186,11 @@
 .slick-list {
     overflow: hidden;
 }
+
 /* Slick track */
 .slick-track{
     display: flex;
 }
-
 
 /* Arrows */
 .slider .slick-arrow {
@@ -241,6 +238,7 @@
 .slick-next {
     right: 0px;
 }
+
 .slider .slick-arrow.slick-next {
     background-position: center;
     background: url('../../img/icons/slider-right.svg') 0 0 no-repeat;
@@ -272,7 +270,6 @@
 .slider .slick-arrow.slick-prev:focus {
     opacity: 1;
 }
-
 
 /* Slide picture*/
 .slider .slick-slide {
