@@ -1,5 +1,8 @@
-.hero-main {
+.hero-main-bgcolor {
   background-color: var(--backcolor-dark);
+}
+
+.hero-main {
   position: relative;
 }
 
