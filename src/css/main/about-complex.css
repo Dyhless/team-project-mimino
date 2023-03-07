@@ -1,14 +1,14 @@
 /* About a complex  - Abaco*/
 /* Containers */
 @media screen and (min-width: 320px) and (max-width: 374px) {
-    div.container.abaco {
+    .container.abaco {
     padding-top: 64px;
     padding-bottom: 64px;
     }
 }
 
 @media screen and (min-width: 375px) {
-    div.container.abaco {    
+    .container.abaco {    
     max-width: 375px;
     padding-top: 64px;
     padding-bottom: 64px;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    div.container.abaco {
+    .container.abaco {
         max-width: 768px;
         padding-bottom: 80px;
         padding-top: 80px;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    div.container.abaco {
+    .container.abaco {
         max-width: 1440px;
         padding-bottom: 100px;
         padding-top: 100px;
@@ -308,7 +308,7 @@ div.wraper-relative-top {
 }
 
  /* mobile */
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .abaco-customer-feetback-top {
         position: absolute;
         top: 422px;
