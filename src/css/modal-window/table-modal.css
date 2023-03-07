@@ -6,9 +6,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-
   transition: opacity var(--transition-dur-func),
-    visibility var(--transition-dur-func);
+  visibility var(--transition-dur-func);
 }
 
 .backdrop-modal-table.is-hidden {
@@ -30,12 +29,10 @@
   padding-right: 24px;
   padding-bottom: 40px;
   width: 335px;
-
   background-color: var(--backcolor-dark);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-dur-func);
 }
@@ -46,7 +43,6 @@
     padding-bottom: 60px;
     padding-left: 32px;
     padding-right: 32px;
-
     width: 628px;
   }
 }
@@ -55,7 +51,6 @@
   position: absolute;
   top: 14px;
   right: 14px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,12 +83,11 @@
 .modal-table-title {
   display: block;
   margin-bottom: 40px;
-
   font-weight: 500;
   font-size: 28px;
   line-height: 1.36;
   text-transform: uppercase;
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
 }
 
 @media screen and (min-width: 768px) {
@@ -101,6 +95,7 @@
     margin-bottom: 60px;
   }
 }
+
 .part-modal-table-title {
   font-style: italic;
 }
@@ -113,7 +108,6 @@
 .modal-table-form-input-desc {
   display: block;
   margin-top: 8px;
-
   font-size: 8px;
   line-height: 1.5px;
   letter-spacing: 0.18em;
@@ -123,14 +117,13 @@
 
 .modal-table-form-input {
   padding-bottom: 18px;
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
   width: 100%;
   height: 36px;
   background-color: transparent;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
   outline: transparent;
-
   transition: border-color var(--transition-dur-func);
 }
 
@@ -146,11 +139,11 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
 }
 
 .modal-table-form-input:focus {
-  border-color: #f7f7f7;
+  border-color: var(--h1-h2-h3-whitecolor);
 }
 
 .modal-table-lable-block {
@@ -163,17 +156,14 @@
   color: #f7f7f7;
   width: 287px;
   height: 36px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-
   background-color: transparent;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
   outline: transparent;
   text-transform: uppercase;
-
   transition: border-color var(--transition-dur-func);
 }
 
@@ -195,34 +185,32 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  fill: #f7f7f7;
+  fill: var(--h1-h2-h3-whitecolor);
 }
 
 .modal-table-form-btn {
   display: inline-block;
   align-self: center;
   min-width: 235px;
-  border: 0.8px solid #f7f7f7;
+  border: 0.8px solid var(--h1-h2-h3-whitecolor);
   border-radius: 32px;
   padding: 14px 48px;
   margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
   background-color: var(--paragraph-blackcolor);
-
   transition: background-color var(--transition-dur-func),
-    color var(--transition-dur-func);
+  color var(--transition-dur-func);
 }
 
 .modal-table-form-btn:hover,
 .modal-table-form-btn:focus {
-  background-color: #f7f7f7;
+  background-color: var(--h1-h2-h3-whitecolor);
   color: var(--paragraph-blackcolor);
 }
 
