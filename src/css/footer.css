@@ -1,0 +1,142 @@
+/* ==================== Global styles ==================== */
+
+.footer-section {
+  border: 0.5px solid rgba(18, 18, 18, 0.3);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.footer-line {
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
+.footer-nav {
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.footer-logo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.footer-logo-bottom {
+  display: flex;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.25;
+
+  margin-top: 3px;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-social-icon {
+  display: inline-block;
+}
+
+.footer-social-link {
+  display: block;
+}
+
+/* ==================== /Global styles ==================== */
+
+/* ==================== Mobile ==================== */
+
+@media screen and (max-width: 767px) {
+  .footer-line {
+    margin-bottom: 32px;
+  }
+
+  .footer-nav {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+
+  .menu-footer {
+    display: none;
+  }
+
+  .footer-social-list {
+    gap: 14px;
+  }
+
+  .footer-social-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ==================== /Mobile ==================== */
+
+/* ==================== Tablet ==================== */
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .menu-footer {
+    display: none;
+  }
+
+  .footer-line {
+    margin-bottom: 48px;
+  }
+
+  .footer-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* ==================== /Tablet ==================== */
+
+/* ==================== Desctop ==================== */
+
+@media screen and (min-width: 1440px) {
+  .footer-line {
+    margin-bottom: 80px;
+  }
+
+  .footer-nav {
+    padding-top: 44px;
+    padding-bottom: 80px;
+  }
+
+  .menu-footer {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-logo {
+    text-align: center;
+    margin-right: 77px;
+  }
+
+  .menu-footer-link {
+    font-size: 14px;
+    line-height: 1.29;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+/* ==================== /Desctop ==================== */
