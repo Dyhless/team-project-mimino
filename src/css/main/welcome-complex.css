@@ -1,3 +1,7 @@
+.section-welcome-main-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 .section-welcome-main {
     padding-bottom: 64px;
 }
