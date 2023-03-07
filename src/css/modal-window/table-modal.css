@@ -6,9 +6,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-
   transition: opacity var(--transition-dur-func),
-    visibility var(--transition-dur-func);
+  visibility var(--transition-dur-func);
 }
 
 .backdrop-modal-table.is-hidden {
@@ -30,12 +29,10 @@
   padding-right: 24px;
   padding-bottom: 40px;
   width: 335px;
-
   background-color: var(--backcolor-dark);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-dur-func);
 }
@@ -149,10 +146,19 @@
   border-color: var(--h1-h2-h3-whitecolor);
 }
 
+.modal-table-lable-block {
+  position: relative;
+  margin-bottom: 32px;
+}
+
 .modal-table-number-people {
-  color: var(--h1-h2-h3-whitecolor);
-  width: 100%;
+  padding-bottom: 18px;
+  color: #f7f7f7;
+  width: 287px;
   height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
   background-color: transparent;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
@@ -161,7 +167,13 @@
   transition: border-color var(--transition-dur-func);
 }
 
-.date-label {
+@media screen and (min-width: 768px) {
+  .modal-table-number-people {
+    width: 266px;
+  }
+}
+
+.modal-table-date {
   position: relative;
 }
 
@@ -200,4 +212,29 @@
 .modal-table-form-btn:focus {
   background-color: var(--h1-h2-h3-whitecolor);
   color: var(--paragraph-blackcolor);
+}
+
+.modal-table-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media screen and (min-width: 768px) {
+  .modal-table-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+} */
+
+.modal-table-block {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-table-block {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
