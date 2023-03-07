@@ -140,7 +140,6 @@
   height: 100%;
   background-color: var(--burger-symbols-dark);
   z-index: 999;
-
   transform: translateY(-100%);
   transition: var(--transition-dur-func);
 }

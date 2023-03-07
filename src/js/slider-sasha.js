@@ -4,5 +4,5 @@ $('.slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     variableWidth: true,
-    screenLeft: true, 
+    screenLeft: true,
 });

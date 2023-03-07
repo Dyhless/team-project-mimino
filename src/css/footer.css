@@ -41,6 +41,12 @@
   gap: 16px;
 }
 
+.social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
 .footer-social-icon {
   display: inline-block;
 }
