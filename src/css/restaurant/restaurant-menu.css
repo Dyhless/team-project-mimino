@@ -1,44 +1,46 @@
 .section-menu {
-  padding-top: 40px;
-  padding-bottom: 64px;
-  background-color: var(--backcolor-dark);
-  color: #f7f7f7;
-}
+    padding-top: 40px;
+    padding-bottom: 64px;
+    background-color: var(--backcolor-dark);
+    color: var(--h1-h2-h3-whitecolor);
+  
+} 
 /* h2 */
 .section-title-menu {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.25em;
-
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25em;
+  padding-bottom: 36px;
   text-transform: uppercase;
-
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
+  text-align: center;
+  color: var(--h1-h2-h3-whitecolor);
   text-align: center;
 }
 
 /* h3 */
 .title-menu {
-  font-family: 'DM Sans', sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
-
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
-  color: #f7f7f7;
+  color: var(--h1-h2-h3-whitecolor);
   margin-bottom: 32px;
 }
 
 .btn-book {
   min-width: 140px;
   height: 40px;
-  padding: 8px 24px;
+  Padding: 8px 24px;
   color: var(--burger-symbols-white);
   text-transform: uppercase;
   background-color: var(--btns-darkborder);
-  border: 0.8px solid #f7f7f7;
+  border: 0.8px solid var(--paragraph-whitecolor);
   border-radius: 32px;
   font-weight: 400;
   font-size: 14px;
@@ -47,8 +49,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  transition: background-color var(--transition-dur-func),
-    color var(--transition-dur-func);
+  transition: background-color var( --transition-dur-func),
+  color var(--transition-dur-func);
 }
 
 .btn-book:hover,
@@ -57,23 +59,29 @@
   color: var(paragraph-blackcolor);
 }
 
-/* до іконок слайдера 39,33? */
-.menu {
-  list-style: none;
-  padding: 36px 20px 39.33px 20px;
+.slider-item {
+  max-width: 335px;
+  /* Корегувати */
+  max-height: 505px;
+  /* margin-bottom: 56px; */
 }
 
-.menu-slider {
-}
-.menu-part {
-  list-style: disc;
+.menu-part::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--paragraph-whitecolor);
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .menu-item {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #f7f7f7;
+  color: var(--paragraph-whitecolor);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,12 +89,12 @@
 
 .menu-weight {
   display: inline-block;
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
-  color: #d8d7d7;
+  color: var(--lightwhite-paragraph);
 }
+
 .menu-txt {
   max-width: 233px;
   font-weight: 400;
@@ -101,7 +109,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.29;
-  color: #f7f7f7;
+  color: var(--paragraph-whitecolor);
 }
 
 .menu-details {
@@ -114,13 +122,18 @@
 .tasty {
   padding-bottom: 14px;
 }
+
 .menu-list::after {
-  content: '';
+  content: "";
   max-width: 335px;
   height: 1px;
   margin-bottom: 14px;
   background-color: rgba(255, 255, 255, 0.5);
   display: block;
+} 
+
+.desktop {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -128,10 +141,11 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
+    
   .section-title-menu {
     font-size: 40px;
     line-height: 1.1em;
+    padding-bottom: 64px;
   }
 
   .title-menu {
@@ -139,7 +153,10 @@
     line-height: 1em;
   }
   .btn-book {
-    margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
   }
 
   .menu-txt {
@@ -148,6 +165,19 @@
   .menu-weight {
     font-size: 14px;
   }
+
+  .slider-item {
+    max-width: 515px;
+    max-height: 533px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu-list::after {
+    content: "";
+    max-width: 100%;
+    display: block;
+  } 
 }
 
 @media screen and (min-width: 1440px) {
@@ -155,8 +185,56 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
+  .section-title-menu {
+    padding-bottom: 100px;
+  }
+
   .btn-book {
     font-size: 18px;
     line-height: 1.33em;
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 56px;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .slider-menu {
+    display: none;
+  }
+
+  .slider-item {
+    /* min-width: 515px; */
+    /* min-height: 533px; */
+    min-width: calc((100% - var(--indent)) / var(--items));
+  }
+
+  .menu {
+    display: flex;
+    flex-basis: calccalc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    flex-wrap: wrap;
+    gap: 74px;
+    row-gap: 56px;
+    justify-content: center;  
+  }
+
+  .menu-price {
+    font-size: 18px;
+    line-height: 1.33em;
+  }
+
+  .menu-item {
+    font-size: 18px;
+  }
+
+  .menu-txt {
+      max-width: 345px;
+  }
+
+  .drinks {
+    margin-top: 28px;
   }
 }
