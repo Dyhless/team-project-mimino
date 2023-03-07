@@ -1,33 +1,50 @@
 /* Page rooms Hero / parooh */
 /* Container Parooh */
+.section.parooh {
+    background-color: var(--backcolor-light); 
+}
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 315px) and (max-width: 374px) {
     .container.parooh {
-    padding-top: 40px;
-    padding-bottom: 64px;
-}}
+        padding-top: 40px;
+        padding-bottom: 64px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 767px){
     .container.parooh {
-    max-width: 375px;
-    margin: 0 auto;
-}}
+        padding-top: 40px;
+        padding-bottom: 64px;
+        max-width: 375px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .container.parooh {
-    max-width: 768px;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 120px;
-}}
+        max-width: 768px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 120px;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .container.parooh {
-    max-width: 1440px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}}
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-top: 169px;
+        overflow: hidden;
+        position: relative;
+    }
+}
 
 /* Text part Parooh */
 /* .text-part-parooh {
@@ -40,7 +57,44 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #121212;
+    color: var(--paragraph-blackcolor);
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .main-title-parooh {
+        font-size: 80px;
+        margin: 0;
+        font-size: 60px;
+        line-height: 100%;
+    }
+}
+
+.parooh-luxury {
+    font-style: italic;
+}
+
+/* Text part Parooh */
+.text-part-parooh {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+@media screen and (min-width: 1440px) {
+    .text-part-parooh {
+        flex-direction: column;
+        width: 592px;
+        gap: 169px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-text-part-parooh {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
 }
 
 /* Text Parooh */
@@ -50,24 +104,171 @@
     line-height: 129%;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #121212;
+    color: var(--paragraph-blackcolor);
+    width: 289px;
 }
 
 /* Button Parooh "Viev Prices" */
 .btn-parooh {
-    display: block;
+    display: inline-block;
     width: 117px;
     height: 34px;
     padding: 8px 17px;
-    border: 0.8px solid #121212;
+    border: 0.8px solid var(--paragraph-blackcolor);
     border-radius: 32px;
     background-color: transparent;
-
-    color: #121212;
+    color: var(--paragraph-blackcolor);
     font-weight: 400;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #121212;
+    color: var(--paragraph-blackcolor);
+    transition: color var(--transition-dur-func), background-color var(--transition-dur-func);
+    margin-bottom: 569px;
 }
+
+.btn-parooh:hover,
+.btn-parooh:focus {
+    color: var(--h1-h2-h3-whitecolor);
+    background-color: var(--backcolor-dark);
+}
+
+@media screen and (min-width: 768px) {
+    .btn-parooh {
+        width: 129px;
+        height: 40px;
+        margin-bottom: 616px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .btn-parooh {
+        width: 152px;
+        height: 42px;
+        margin-bottom: 0;
+    }
+}
+
+/* Slider */
+.slider-container {
+    position: relative;
+}
+
+/* Slider Positioning*/
+.parooh-slider-wraper {
+    position: absolute;
+    top: 218px;
+    left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .parooh-slider-wraper {
+        top: 246px;
+        left: 20;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .parooh-slider-wraper {
+        top: 30px;
+        left: 740px;
+    }
+}
+
+
+/* Slider options */
+/* main wraper */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Slick track */
+.slick-track{
+    display: flex;
+}
+
+/* Arrows */
+.slider .slick-arrow {
+    width: 7px;
+    height: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    margin-top: 24px;
+    z-index: 10;
+    font-size: 0;
+    border: none;
+    outline: none;
+}
+
+.slick-prev{
+    right: 0px;
+}
+
+.slider .slick-arrow.slick-prev {
+    background: url('../../img/icons/slider-left.svg') 0 0 no-repeat;
+    opacity: 0.3;
+    transition: opasity var(--transition-dur-func);
+}
+
+@media screen and (max-width: 374px) {
+    .slick-prev {
+        left: 175px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slick-prev {
+        left: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slick-prev {
+        left: 0px;
+    }
+}
+
+.slick-next {
+    right: 0px;
+}
+
+.slider .slick-arrow.slick-next {
+    background-position: center;
+    background: url('../../img/icons/slider-right.svg') 0 0 no-repeat;
+    opacity: 0.3;
+    transition: opacity var(--transition-dur-func);
+}
+
+@media screen and (max-width: 374px) {
+    .slick-next {
+        left: 248px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slick-next {
+        left: 668px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .slick-next {
+        left: 68px;
+    }
+}
+
+.slider .slick-arrow.slick-next:hover,
+.slider .slick-arrow.slick-next:focus,
+.slider .slick-arrow.slick-prev:hover,
+.slider .slick-arrow.slick-prev:focus {
+    opacity: 1;
+}
+
+/* Slide picture*/
+.slider .slick-slide {
+    margin-right: 32px;
+}
+

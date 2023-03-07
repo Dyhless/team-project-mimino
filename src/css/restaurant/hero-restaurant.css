@@ -1,13 +1,12 @@
 .hero-restaurant {
   overflow: hidden;
   padding-top: 40px;
-  padding-bottom: 64px;
   background-color: var(--backcolor-light);
 }
 
 @media screen and (min-width: 768px) {
   .hero-restaurant {
-    padding-bottom: 120px;
+    padding-bottom: 40px;
   }
 }
 
