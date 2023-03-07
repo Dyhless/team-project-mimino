@@ -18,7 +18,7 @@
     
     <script type="module" crossorigin src="/team-project-mimino/assets/room-modal-ea79b097.js"></script>
     <script type="module" crossorigin src="/team-project-mimino/assets/mobile-menu-89a4b121.js"></script>
-    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-b0769b99.css">
+    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-55b1b8c7.css">
   </head>
   <body>
     <header class="header">
@@ -37,6 +37,9 @@
         <li class="header-nav__item">
           <a class="header-nav__link" href="room.html">Room</a>
         </li>
+        <li class="header-nav__item">
+          <a class="header-nav__link" href="../room.html">Room</a>
+        </li>
       </ul>
     </nav>
 
@@ -52,26 +55,26 @@
 
     <a class="header-logo" href=""
       >Mimino
-      <span class="header-logo--conrol">restaurant-hotel complex</span></a
+      <span class="header-logo--control">restaurant-hotel complex</span></a
     >
 
     <ul class="header-social">
       <li class="header-social__item">
-        <a class="header-social__link" href="">
+        <a class="header-social__link" href="https://www.instagram.com">
           <svg class="header-social__icon" width="24" height="24">
             <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-instagram-white"></use>
           </svg>
         </a>
       </li>
       <li class="header-social__item">
-        <a class="header-social__link" href="">
+        <a class="header-social__link" href="https://uk-ua.facebook.com">
           <svg class="header-social__icon" width="24" height="24">
             <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-facebook-white"></use>
           </svg>
         </a>
       </li>
       <li class="header-social__item">
-        <a class="header-social__link" href="">
+        <a class="header-social__link" href="https://twitter.com">
           <svg class="header-social__icon" width="24" height="24">
             <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-twitter-white"></use>
           </svg>
@@ -88,34 +91,37 @@
         <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-x-close"></use>
       </svg>
     </button>
-    <a class="header-logo" href=""
+    <a class="mobile-menu-logo" href=""
       >Mimino
-      <span class="header-logo--conrol">restaurant-hotel complex</span></a
+      <span class="mobile-menu-logo--control">restaurant-hotel complex</span></a
     >
   </div>
   <ul class="mobile-menu">
-    <li><a href="" class="mobile-menu__link">Home</a></li>
-    <li><a href="" class="mobile-menu__link">Hotel</a></li>
-    <li><a href="" class="mobile-menu__link">Restaurant</a></li>
+    <li><a href="../index.html" class="mobile-menu__link">Home</a></li>
+    <li><a href="../hotel.html" class="mobile-menu__link">Hotel</a></li>
+    <li>
+      <a href="../restaurant.html" class="mobile-menu__link">Restaurant</a>
+    </li>
+    <li><a href="../room.html" class="mobile-menu__link">Room</a></li>
   </ul>
 
   <ul class="mobile-menu-social">
     <li class="mobile-menu-social__item">
-      <a class="mobile-menu-social__link" href="">
+      <a class="mobile-menu-social__link" href="https://www.instagram.com">
         <svg class="mobile-menu-social__icon" width="24" height="24">
           <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-instagram-white"></use>
         </svg>
       </a>
     </li>
     <li class="mobile-menu-social__item">
-      <a class="mobile-menu-social__link" href="">
+      <a class="mobile-menu-social__link" href="https://uk-ua.facebook.com">
         <svg class="mobile-menu-social__icon" width="24" height="24">
           <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-facebook-white"></use>
         </svg>
       </a>
     </li>
     <li class="mobile-menu-social__item">
-      <a class="mobile-menu-social__link" href="">
+      <a class="mobile-menu-social__link" href="https://twitter.com">
         <svg class="mobile-menu-social__icon" width="24" height="24">
           <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-twitter-white"></use>
         </svg>
@@ -124,7 +130,56 @@
   </ul>
 </div>
 
-    
+    <section class="hero-main container">
+    <div class="hero-main-wrraper"> <picture>
+    <source
+      media="(min-width: 1440px)"
+      srcset="/team-project-mimino/assets/main_header_pic@1x-5f20182a.jpg 1x, /team-project-mimino/assets/main_header_pic@2x-a8f9522f.jpg 2x"
+      type="image/jpg"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="/team-project-mimino/assets/hero@1x-f7fba988.jpg 1x, /team-project-mimino/assets/hero@2x-02ac4527.jpg 2x"
+      type="image/jpg"
+    />
+    <source
+      media="(max-width:767px)"
+      srcset="/team-project-mimino/assets/hero_mobile@1x-64ba6f93.jpg 1x, /team-project-mimino/assets/hero_mobile@2x-8e06125e.jpg 2x"
+      type="image/jpg"
+    />
+    <img
+      class="hero-main-img"
+      width="542"
+      height="770"
+      src="../../img/mobile/main_page/hero/hero_mobile@1x.jpg"
+      alt="hotel"
+      loading="lazy"
+    />
+  </picture>
+
+  <h1 class="hero-main__title">Mimino</h1>
+  <ul class="hero-main__list">
+    <li class="hero-main__item">
+      <button class="hero-main__btn" type="button">book a room</button>
+    </li>
+    <li class="hero-main__item">
+      <button class="hero-main__btn" type="button">book a table</button>
+    </li>
+  </ul>
+
+  <div class="hero-main-control">
+    <p class="hero-main__text">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or a
+      romantic dinner, our menu has something for everyone.
+    </p>
+    <p class="hero-main__text">
+      At Hotel Mimino, we believe that great food should be available to
+      everyone, no matter the time of day.
+    </p>
+  </div>
+</section>
+</div>
+ 
     <!-- About a complex/abaco -->
 <section class="section abaco container">
         <div class="abaco">
