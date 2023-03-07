@@ -97,8 +97,6 @@
     }
 }
 
-
-
 /* Text Parooh */
 .text-parooh {
     font-weight: 400;
@@ -109,8 +107,6 @@
     color: var(--paragraph-blackcolor);
     width: 289px;
 }
-
-
 
 /* Button Parooh "Viev Prices" */
 .btn-parooh {
