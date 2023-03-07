@@ -27,9 +27,11 @@
     />
     <title>Restaurant Page</title>
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/table-modal-797503b3.js"></script>
-    <link rel="stylesheet" href="/team-project-mimino/assets/table-modal-c9b66392.css">
+    <script type="module" crossorigin src="/team-project-mimino/assets/restaurant-5bd47bb7.js"></script>
+    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/table-modal-797503b3.js">
+    <link rel="stylesheet" href="/team-project-mimino/assets/table-modal-60c78611.css">
   </head>
+
   <body>
     <header class="header">
   <div class="header-control container">
@@ -418,7 +420,7 @@
   <div class="container">
     <h2 class="section-title-menu">RESTAURANT MENU</h2>
     <!-- Mobile + Tablet = Slider-->
-    <div class="slider-menu">
+    <div class="fade slider-menu">
       <div class="slider-item">
         <h3 class="title-menu">Hot meals</h3>
         <ul>
@@ -648,8 +650,10 @@
           </li>
         </ul>
       </div>
-      <button class="btn-book" type="button">book a table</button>
+
     </div>
+    <button class="btn-book" data-modal-open type="button">book a table</button>
+
 
     <!-- DESKTOP -->
     <div class="desktop">
@@ -888,7 +892,6 @@
     </div>
   </div>
 </section>
-
     <div class="backdrop-modal-table is-hidden" data-modal>
   <div class="modal-table">
     <button type="button" class="modal-table-close-btn" data-modal-close>
@@ -1060,6 +1063,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    
     
     
     
