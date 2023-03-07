@@ -1,4 +1,8 @@
 /*---------MOBILE---------------*/
+.fs-rooms-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 .h-fs-rooms {
     background-color: var(--backcolor-light);
     padding-bottom: 64px;
