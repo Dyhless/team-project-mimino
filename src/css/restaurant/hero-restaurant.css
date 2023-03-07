@@ -1,3 +1,7 @@
+.hero-restaurant-bgcolor {
+  background-color: var(--backcolor-light);
+}
+
 .hero-restaurant {
   overflow: hidden;
   padding-top: 40px;
