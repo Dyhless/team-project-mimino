@@ -28,8 +28,9 @@
     />
 
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/hotel-3a390dd1.js"></script>
-    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/mobile-menu-a324f5d0.js">
+    <script type="module" crossorigin src="/team-project-mimino/assets/hotel-685e49c1.js"></script>
+    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/mobile-menu-11b63041.js">
+    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/table-modal-eacf52b9.js">
     <link rel="stylesheet" href="/team-project-mimino/assets/mobile-menu-922df315.css">
   </head>
   <body>
@@ -177,7 +178,11 @@
       <div class="hero-text-block">
         <h1 class="hotel-hero-title">Hotel</h1>
         <div class="hero-list-btn">
-          <button class="hotel-hero-btn" type="button" data-modal-open>
+          <button
+            class="hotel-hero-btn"
+            type="button"
+            data-modal-hotel-room-open
+          >
             book a room
           </button>
           <button class="hotel-hero-btn" type="button">View prices</button>
@@ -597,9 +602,108 @@
   </div>
 </section>
 
-    <div class="backdrop-room is-hidden" data-modal>
+    <!-- <div class="backdrop-room is-hidden" data-modal-room-main>
   <div class="modal-room">
-    <button type="button" class="modal-room-close-btn" data-modal-close>
+    <button
+      type="button"
+      class="modal-room-close-btn"
+      data-modal-room-main-close
+    >
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/img/icons/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-room-title">
+      BOOK <span class="part-modal-room-title">A room</span>
+    </h1>
+    <form class="modal-room-form" name="modal-room-form" autocomplete="off">
+      <div class="wrap">
+        <div class="modal-room-block">
+          <label class="modal-room-form-label">
+            <input
+              type="text"
+              name="user_name"
+              class="modal-room-form-input"
+              required
+              pattern="[a-zA-Z]+"
+              minlength="2"
+              placeholder="YOUR NAME"
+            />
+            <span class="modal-room-form-input-desc"
+              >Who should book a table for?</span
+            >
+          </label>
+          <label class="modal-room-form-label">
+            <input
+              type="tel"
+              name="user_phone"
+              class="modal-room-form-input"
+              required
+              title="xxx-xxx-xx-xx"
+              placeholder="+ 38 () "
+            />
+            <span class="modal-room-form-input-desc">Phone number</span>
+          </label>
+        </div>
+        <div class="moodal-room-date-block">
+          <label class="modal-room-form-label date-label">
+            <input
+              type="text"
+              placeholder="TODAY"
+              onfocus="(this.type='date')"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-room-form-input modal-room-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-room-form-input-desc">Check-in date</span>
+          </label>
+          <label class="modal-room-form-label date-label">
+            <input
+              value="2023-04-25"
+              type="date"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-room-form-input modal-room-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-room-form-input-desc">Check-in date</span>
+          </label>
+        </div>
+        <label class="modal-room-form-label date-label category">
+          <select
+            name="category"
+            class="modal-room-form-input option modal-room-date"
+          >
+            <option value="double-lux">DOUBLE SUITE</option>
+            <option value="triple-room">TRIPLE ROOM</option>
+            <option value="four-seater-room">FOUR-SEATER ROOM</option>
+            <option value="double-suite">DOUBLE LUXURY ROOM</option>
+          </select>
+          <svg class="modal-icon" width="20" height="20">
+            <use href="/img/icons/sprite.svg#icon-chevron-down"></use>
+          </svg>
+          <span class="modal-room-form-input-desc">Number category</span>
+        </label>
+      </div>
+      <button type="submit" class="modal-room-form-btn" data-modal-close>
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</div>
+ -->
+    <div class="backdrop-room is-hidden" data-room-hotel-modal>
+  <div class="modal-room">
+    <button
+      type="button"
+      class="modal-room-close-btn"
+      data-modal-hotel-room-close
+    >
       <svg class="modal-close-btn-icon" width="14" height="14">
         <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
       </svg>
