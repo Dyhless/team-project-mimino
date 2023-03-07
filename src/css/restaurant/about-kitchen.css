@@ -63,13 +63,16 @@
         max-width: 284px;
         margin-bottom: 0;
     }
+
     .example {
         max-width: 284px;
         height: auto;
     }
+
     .example-drink {
         max-width: 284px;
     }
+
     .about-k_txt {
         display: flex;
         gap:32px;
@@ -100,7 +103,7 @@
         flex-direction: row;
         margin-bottom: 32px;
     }
-    
+
     .img-cook {
         position: absolute;
         left: 16px;
