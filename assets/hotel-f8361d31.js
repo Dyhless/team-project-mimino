@@ -1,1 +1,0 @@
-import"./table-modal-797503b3.js";import"./mobile-menu-89a4b121.js";const o=document.querySelector('.modal-room-form-input[type="tel"]');console.log(o);const t=new Inputmask("+38(099)-999-99-99");t.mask(o);
