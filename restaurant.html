@@ -27,8 +27,8 @@
     />
     <title>Restaurant Page</title>
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/room-modal-20345822.js"></script>
-    <link rel="stylesheet" href="/team-project-mimino/assets/room-modal-a12ade22.css">
+    <script type="module" crossorigin src="/team-project-mimino/assets/table-modal-797503b3.js"></script>
+    <link rel="stylesheet" href="/team-project-mimino/assets/table-modal-c9b66392.css">
   </head>
   <body>
     <header class="header">
@@ -900,69 +900,74 @@
       BOOK <span class="part-modal-table-title">A table</span>
     </h1>
     <form class="modal-table-form" name="modal-table-form" autocomplete="off">
-      <label class="modal-table-form-label">
-        <input
-          type="text"
-          name="user_name"
-          placeholder="Your name"
-          class="modal-table-form-input"
-          required
-          pattern="[a-zA-Z]+"
-          minlength="2"
-        />
-        <span class="modal-table-form-input-desc"
-          >Who should book a table for?</span
-        >
-      </label>
+      <div class="modal-table-wrap">
+        <div class="modal-table-block">
+          <label class="modal-table-form-label">
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Your name"
+              class="modal-table-form-input"
+              required
+              pattern="[a-zA-Z]+"
+              minlength="2"
+            />
+            <span class="modal-table-form-input-desc"
+              >Who should book a table for?</span
+            >
+          </label>
 
-      <label class="modal-table-form-label" for="number-people">
-        <select
-          id="number-people"
-          name="number-people"
-          class="modal-table-number-people"
-        >
-          <option value="0">number of people</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-        <svg class="modal-icon" width="20" height="20">
-          <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
-        </svg>
-      </label>
+          <div class="modal-table-lable-block">
+            <label class="modal-table-form-label" for="number-people">
+              <select
+                id="number-people"
+                name="number-people"
+                class="modal-table-number-people"
+              >
+                <option value="0">number of people</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <svg class="modal-icon" width="20" height="20">
+                <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
 
-      <label
-        class="modal-table-form-label modal-table-date date-label"
-        for="date"
-      >
-        <input
-          id="date"
-          type="date"
-          name="date_book"
-          placeholder="TODAY"
-          onfocus="(this.type='date')"
-          min="2023-03-01"
-          max="2024-01-01"
-          class="modal-table-form-input"
-        />
-        <svg class="modal-icon" width="20" height="20">
-          <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
-        </svg>
-        <span class="modal-table-form-input-desc">What date to book?</span>
-      </label>
+        <div class="modal-table-block">
+          <label class="modal-table-form-label modal-table-date" for="date">
+            <input
+              id="date"
+              type="text"
+              name="date_book"
+              placeholder="TODAY"
+              onfocus="(this.type='date')"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-table-form-input"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-table-form-input-desc">What date to book?</span>
+          </label>
 
-      <label class="modal-table-form-label">
-        <input
-          type="tel"
-          name="user_phone"
-          placeholder="+ 38 ()"
-          class="modal-table-form-input"
-          required
-          title="xxx-xxx-xx-xx"
-        />
-        <span class="modal-table-form-input-desc">Phone number</span>
-      </label>
+          <label class="modal-table-form-label">
+            <input
+              type="tel"
+              name="user_phone"
+              placeholder="+ 38 ()"
+              class="modal-table-form-input"
+              required
+              title="xxx-xxx-xx-xx"
+            />
+            <span class="modal-table-form-input-desc">Phone number</span>
+          </label>
+        </div>
+      </div>
 
       <button type="submit" class="modal-table-form-btn">
         MAKE A RESERVATION
