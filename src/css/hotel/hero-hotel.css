@@ -1,32 +1,59 @@
 .hotel-hero {
-    overflow: hidden;
-    padding-top: 40px;
-    /* padding-bottom: 64px; */
     background-color: var(--backcolor-light);
 }
 
-@media screen and (min-width: 768px){
-    .hotel-hero{
-        padding-bottom: 40px;
+.hotel-hero-container {
+    position: relative;
+
+    padding-top: 40px;
+    padding-bottom: 64px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+    .hotel-hero-container {
+        max-width: 375px;
+        margin: 0 auto;
     }
 }
 
+@media screen and (min-width: 768px){
+    .hotel-hero-container {
+        max-width: 768px;
+        padding-bottom: 120px;
+    }
+}
+
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
 @media screen and (min-width: 1440px) {
-    .hotel-hero {
-        padding-top: 30px;
-        padding-bottom: 30px;
+    .hotel-hero-container {
+        max-width: 1440px;
+        padding-top: 204px;
+        padding-bottom: 148px;
     }
 
     .hero-block {
+        width: 592px;
+       gap: 204px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text-block {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 369px;
+        flex-direction: column;
+        gap: 32px;
     }
 }
 
 .hotel-hero-title {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     font-weight: 400;
     font-size: 40px;
     line-height: 1;
@@ -36,27 +63,19 @@
 
 @media screen and (min-width: 768px) {
     .hotel-hero-title {
-        padding-bottom: 32px;
+        margin: 0;
         font-size: 80px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .hotel-hero-title {
-        padding-bottom: 32px;
         font-size: 90px;
     }
 }
 
 .hero-list-btn {
     display: flex;
-    margin-bottom: 40px;
-}
-
-@media screen and (min-width: 768px) {
-    .hero-list-btn {
-        margin-bottom: 54px;
-    }
 }
 
 .hero-list-btn :not(:last-child) {
@@ -82,6 +101,20 @@
     color: var(--paragraph-blackcolor);
     background-color: transparent;
     transition: color var(--transition-dur-func), background-color var(--transition-dur-func);
+    margin-bottom: 569px;
+}
+@media screen and (min-width: 768px){
+    .hotel-hero-btn {
+        padding: 8px 24px;
+        margin-bottom: 642px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-hero-btn {
+        padding: 9px 24px;
+        margin-bottom: 0;
+    }
 }
 
 .hotel-hero-btn:hover,
@@ -90,40 +123,87 @@
     background-color: var(--backcolor-dark);
 }
 
-.slider-container {
-    position: relative;
-    min-width: 520px;
-    min-height: 429px;
+.hotel-hero-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--paragraph-blackcolor);
+    width: 335px;
 }
 
 @media screen and (min-width: 768px) {
-    .slider-container {
-        min-width: 904px;
-        min-height: 548px;
+    .hotel-hero-description {
+        width: 338px;
+    }
+}
+
+.part-hotel-hero-description {
+    font-style: italic;
+}
+/* ============Slider================= */
+.slider-container {
+    position: relative;
+}
+
+.hero-slider-wrapper {
+    position: absolute;
+    top: 178px;
+    left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-slider-wrapper {
+        top: 246px;
+        left: 36px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .slider-container {
-        min-width: 904px;
-        min-height: 580px;
+    .hero-slider-wrapper {
+        top: 30px;
+        left: 737px;
     }
 }
 
-.slider-img {
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slider .slick-slide {
     margin-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .slider-img {
+    .slider .slick-slide {
         margin-right: 32px;
     }
+} 
+
+.slick .slick-arrow {
+    width: 7px;
+    height: 14px;
+    padding: 11px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    margin-top: 24px;
+    z-index: 10;
+    font-size: 0;
+    border: none;
+    outline: none;
 }
-.slick-prev:before,
+
+/* .slick-prev:before,
 .slick-next:before {
     display: none;
-}
-.slick-prev, .slick-next {
+} */
+/* .slick-prev, .slick-next {
     position: absolute;
     top: 100%;
     margin-top: 24px;
@@ -132,9 +212,9 @@
     width: 36px;
     height: 36px;
     
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .slick-prev,
     .slick-next {
         margin-top: 40px;
@@ -145,24 +225,36 @@
     .slick-next {
         margin-top: 16px;
     }
-}
+} */
 
-.slick-prev{
+/* .slick-prev{
     left: 231px;
+} */
+
+
+.slick-prev {
+    right: 0px;
 }
 
 .slider .slick-arrow.slick-prev {
+    top: 103%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../../img/icons/slider-left-new.svg');
+    background-image: url('../../img/icons/slider-left-new.svg') 0 0 no-repeat;
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
+}
+
+@media screen and (max-width: 374.98px) {
+    .slick-prev {
+        left: 175px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .slick-prev {
         left: 600px;
     }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -171,15 +263,26 @@
     }
 }
 
-.slick-next {
+/* .slick-next {
     left: 299px;
+} */
+
+.slick-next {
+    right: 0px;
 }
 .slider .slick-arrow.slick-next {
+    
     background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../../img/icons/slider-right.svg');
+    top: 103%;
+    background-image: url('../../img/icons/slider-right.svg') 0 0 no-repeat;
     opacity: 0.3;
     transition: opacity var(--transition-dur-func);
+}
+
+@media screen and (max-width: 374.98px) {
+    .slick-next {
+        left: 248px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -192,7 +295,7 @@
     .slick-next {
         left: 68px;
     }
-}
+}    
 
 .slider .slick-arrow.slick-next:hover,
 .slider .slick-arrow.slick-next:focus,
@@ -200,30 +303,5 @@
 .slider .slick-arrow.slick-prev:focus {
     opacity: 1;
 }
+/* ============Slider================= */
 
-.hotel-hero-description {
-    margin-top: 100px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--paragraph-blackcolor);
-}
-@media screen and (min-width: 768px){
-    .hotel-hero-description {
-        margin-top: 40px;
-        width: 338px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .hotel-hero-description {
-        margin-top: -36px;
-        width: 338px;
-    }
-}
-
-.part-hotel-hero-description {
-    font-style: italic;
-}

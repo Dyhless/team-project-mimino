@@ -1,8 +1,22 @@
 /* ==================== Global styles ==================== */
 
+.footer-section {
+  border: 0.5px solid rgba(18, 18, 18, 0.3);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.footer-line {
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
 .footer-nav {
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
+
+  align-items: center;
 }
 
 .footer-logo {
@@ -31,6 +45,12 @@
   gap: 16px;
 }
 
+.social-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
 .footer-social-icon {
   display: inline-block;
 }
@@ -44,9 +64,13 @@
 /* ==================== Mobile ==================== */
 
 @media screen and (max-width: 767px) {
+  .footer-line {
+    margin-bottom: 32px;
+  }
+
   .footer-nav {
     padding-top: 24px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
   }
 
   .menu-footer {
@@ -68,13 +92,17 @@
 /* ==================== Tablet ==================== */
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .footer-nav {
-    padding-top: 32px;
-    padding-bottom: 80px;
-  }
-
   .menu-footer {
     display: none;
+  }
+
+  .footer-line {
+    margin-bottom: 48px;
+  }
+
+  .footer-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -83,6 +111,10 @@
 /* ==================== Desctop ==================== */
 
 @media screen and (min-width: 1440px) {
+  .footer-line {
+    margin-bottom: 80px;
+  }
+
   .footer-nav {
     padding-top: 44px;
     padding-bottom: 80px;
@@ -95,6 +127,7 @@
 
   .footer-logo {
     text-align: center;
+    margin-right: 77px;
   }
 
   .menu-footer-link {
