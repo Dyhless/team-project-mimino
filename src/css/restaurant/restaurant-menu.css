@@ -167,12 +167,13 @@
     font-size: 14px;
   }
 
-  .slider-item {
+   .slider-item {
     max-width: 515px;
-    max-height: 533px;
+    max-height: 533px; 
+    
     margin-left: auto;
     margin-right: auto;
-  }
+  } 
 
   .menu-list::after {
     content: "";
@@ -251,5 +252,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .slider-menu {
+  width: 515px;
+  height: 533px; 
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+ 
 }
