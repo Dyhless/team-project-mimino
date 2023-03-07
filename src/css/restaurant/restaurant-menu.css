@@ -212,11 +212,6 @@
     min-width: calc((100% - var(--indent)) / var(--items));
   }
 
-  :root {
-  --items: 2;
-  --indent: 74px;
-  }
-
   .menu {
     display: flex;
     flex-basis: calccalc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
