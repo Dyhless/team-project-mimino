@@ -1,5 +1,5 @@
 .about_k {
-     padding-top: 64px;
+    padding-top: 64px;
     padding-bottom: 64px;
 }
 
@@ -46,6 +46,7 @@
         padding-bottom: 80px;
         position: relative;
     }
+
     .img-cook {
         max-width: 388px;
         max-height: 598px; 
@@ -99,6 +100,7 @@
         flex-direction: row;
         margin-bottom: 32px;
     }
+    
     .img-cook {
         position: absolute;
         left: 16px;
