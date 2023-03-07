@@ -1,5 +1,10 @@
 /* Page rooms Hero / parooh */
 /* Container Parooh */
+
+.parooh-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 .section.parooh {
     background-color: var(--backcolor-light); 
 }
