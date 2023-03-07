@@ -26,9 +26,6 @@
 
 .title-rest-det {
     margin-bottom: 24px;
-
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
@@ -37,8 +34,6 @@
 }
 
 .paragr-rest-det {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -82,14 +77,11 @@
 }
 
 /* Buttons */
-
 .btns-rest-det {
     display: flex;
     justify-content: center;
     gap: 12px;
     margin-top: 40px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -144,8 +136,7 @@
 @media screen and (min-width: 1440px) {
     .decktop-rest-det {
         position: relative;
-    
-}
+    }
 }
 
 @media screen and (min-width: 1440px) {
