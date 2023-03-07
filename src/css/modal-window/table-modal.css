@@ -153,10 +153,21 @@
   border-color: #f7f7f7;
 }
 
+.modal-table-lable-block {
+  position: relative;
+  margin-bottom: 32px;
+}
+
 .modal-table-number-people {
+  padding-bottom: 18px;
   color: #f7f7f7;
-  width: 100%;
+  width: 287px;
   height: 36px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+
   background-color: transparent;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
@@ -166,7 +177,13 @@
   transition: border-color var(--transition-dur-func);
 }
 
-.date-label {
+@media screen and (min-width: 768px) {
+  .modal-table-number-people {
+    width: 266px;
+  }
+}
+
+.modal-table-date {
   position: relative;
 }
 
@@ -208,3 +225,34 @@
   background-color: #f7f7f7;
   color: var(--paragraph-blackcolor);
 }
+
+.modal-table-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media screen and (min-width: 768px) {
+  .modal-table-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+} */
+
+.modal-table-block {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-table-block {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-transform: uppercase;
+color: #f7f7f7;
