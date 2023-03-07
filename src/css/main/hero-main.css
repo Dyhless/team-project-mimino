@@ -10,8 +10,22 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-wrraper-img {
+    position: absolute;
+    top: -78px;
+    left: 898px;
+  }
+}
+
 .hero-main-wrraper {
   padding: 40px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-main-wrraper {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -41,6 +55,14 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-main__title {
+    position: static;
+    font-size: 180px;
+    padding: 196px 0;
+  }
+}
+
 .hero-main__list {
   display: flex;
   align-items: center;
@@ -58,6 +80,15 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-main__list {
+    position: absolute;
+    right: 94px;
+    bottom: 78px;
+    z-index: 1;
+  }
+}
+
 .hero-main__btn {
   width: 131px;
   height: 34px;
@@ -66,15 +97,30 @@
   line-height: 1.3;
   text-transform: uppercase;
   color: var(--h1-h2-h3-whitecolor);
-  background-color: var(--backcolor-dark);
+  background-color: transparent;
   border: 0.8px solid var(--h1-h2-h3-whitecolor);
   border-radius: 32px;
+}
+
+.hero-main__btn:hover,
+.hero-main__btn:focus {
+  color: var(--hover-textbtn-white);
+  background-color: var(--hover-textbtn-black);
+  transition: var(--transition-dur-func);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero-main__btn {
     width: 143px;
     height: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-main__btn {
+    width: 170px;
+    height: 42px;
+    font-size: 18px;
   }
 }
 
@@ -93,21 +139,26 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-main-control {
+    width: 684px;
+    flex-direction: row;
+    margin-top: 0;
+    padding-bottom: 48px;
+  }
+}
+
 .hero-main__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--h1-h2-h3-whitecolor);
+  color: var(--paragraph-whitecolor);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 1440px) {
   .hero-main__text {
-    margin-bottom: 0;
+    width: 338px;
   }
 }
-
-/* .hero-main__text:not(:last-child) {
-  margin-bottom: 32px;
-} */
