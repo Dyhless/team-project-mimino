@@ -2,7 +2,7 @@
 /* Containers */
 
 .about-complex-bgcolor {
-    background-color: var(--backcolor-light);
+    background-color: var(--main-background-color);
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {

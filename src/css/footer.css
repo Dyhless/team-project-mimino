@@ -1,6 +1,6 @@
 /* ==================== Global styles ==================== */
 .footer-bgcolor {
-  background-color: var(--backcolor-light);
+  background-color: var(--main-background-color);
 }
 .footer-section {
   border: 0.5px solid rgba(18, 18, 18, 0.3);

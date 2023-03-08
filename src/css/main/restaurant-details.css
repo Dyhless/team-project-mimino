@@ -1,11 +1,10 @@
 .restourant-details {
     overflow: hidden;
     padding-bottom: 0px;
-    background-color: var(--backcolor-light);
 }
 
 .restourant-details-bgcolor {
-    background-color: var(--backcolor-light);
+    background-color: var(--main-background-color);
 }
 
 @media screen and (min-width: 768px) {

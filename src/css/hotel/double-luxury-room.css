@@ -1,10 +1,9 @@
 /*---------MOBILE---------------*/
 .dbl-rooms-bgcolor {
-    background-color: var(--backcolor-light);
+    background-color: var(--main-background-color);
 }
 
 .h-dbl-rooms {
-    background-color: var(--backcolor-light);
     padding-bottom: 64px;
 }
 

@@ -1,7 +1,7 @@
 /* ==================== Global styles ==================== */
 
 .location-section-bgcolor {
-  background-color: var(--backcolor-light);
+  background-color: var(--main-background-color);
 }
 
 .location-title {

@@ -2,11 +2,7 @@
 /* Container Parooh */
 
 .parooh-bgcolor {
-    background-color: var(--backcolor-light);
-}
-
-.section.parooh {
-    background-color: var(--backcolor-light); 
+    background-color: var(--main-background-color);
 }
 
 @media screen and (min-width: 315px) and (max-width: 374px) {
