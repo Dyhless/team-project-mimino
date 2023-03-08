@@ -16,7 +16,8 @@
     />
     <title>Room</title>
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/mobile-menu-b7d996f1.js"></script>
+    <script type="module" crossorigin src="/team-project-mimino/assets/room-f247f8bb.js"></script>
+    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/mobile-menu-9980dbf5.js">
     <link rel="stylesheet" href="/team-project-mimino/assets/mobile-menu-6b8be917.css">
   </head>
   <body>
@@ -443,7 +444,7 @@
         </div>
         <button
           class="button btn-amenitiens"
-          data-modal-room-room-open
+          room-modal-room-1-open
           type="button"
         >
           book a room
@@ -454,13 +455,9 @@
 </section>
 
     
-    <div class="backdrop-room is-hidden" data-modal-main-room>
+    <div class="backdrop-room is-hidden" room-modal-room-1>
   <div class="modal-room">
-    <button
-      type="button"
-      class="modal-room-close-btn"
-      data-modal-main-room-close
-    >
+    <button type="button" class="modal-room-close-btn" room-modal-room-1-close>
       <svg class="modal-close-btn-icon" width="14" height="14">
         <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
       </svg>
@@ -542,7 +539,7 @@
           <span class="modal-room-form-input-desc">Number category</span>
         </label>
       </div>
-      <button type="submit" class="modal-room-form-btn" data-modal-close>
+      <button type="submit" class="modal-room-form-btn" room-modal-romm-1-close>
         MAKE A RESERVATION
       </button>
     </form>

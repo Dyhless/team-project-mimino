@@ -1,1 +1,0 @@
-import"./mobile-menu-b7d996f1.js";import"./table-modal-56aa64ea.js";$(".slider-restdet-desctop").slick({arrows:!0,dots:!1,slidesToShow:5,slidesToScroll:1,variableWidth:!0,leftMode:!0});$(".slider-det-rest").slick({arrows:!0,dots:!1,slidesToShow:2,slidesToScroll:1,variableWidth:!0,screenLeft:!0});
