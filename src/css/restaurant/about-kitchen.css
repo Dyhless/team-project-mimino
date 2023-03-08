@@ -4,6 +4,7 @@
 .about_k {
     padding-top: 64px;
     padding-bottom: 64px;
+    
 }
 
 .img-cook {
@@ -43,13 +44,35 @@
     padding-bottom: 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .about_k {
         padding-top: 80px;
         padding-bottom: 80px;
         position: relative;
     }
 
+
+.img-cook {
+    max-width: 388px;
+    max-height: 598px; 
+    margin-bottom: 0;
+}
+
+.about-k-position {
+display: flex;
+gap: 32px;
+flex-direction:row-reverse;
+}
+    
+
+.about-k-img {
+    margin-bottom: 0;
+}
+
+
+.about-k-info
+
+/* 
     .img-cook {
         max-width: 388px;
         max-height: 598px; 
@@ -57,7 +80,7 @@
         right: 16px;
         top: 40px;
         margin-bottom: 0;
-    }
+    } */
 
     .img-food {
         display: flex;
@@ -78,19 +101,19 @@
 
     .about-k_txt {
         display: flex;
-        gap:32px;
+        gap: 32px;
         font-size: 18px;
         line-height: 1.33em;
         padding-top: 40px;
     }
 
-    .about-k_txt-item {
+   .about-k_txt-item {
         padding-bottom: 0;
     }
 
-    .about-k_txt-item-two {
+    /* .about-k_txt-item-two {
         padding-bottom: 0;
-    }
+    }  */
 }
 
 @media screen and (min-width: 1440px) {
@@ -98,6 +121,9 @@
         padding-bottom: 100px;
         padding-top: 100px;
         min-height: 798px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
     }
 
     .img-food {
@@ -107,37 +133,61 @@
         margin-bottom: 32px;
     }
 
-    .img-cook {
-        position: absolute;
+.about-k-position {
+ display: flex;
+gap: 32px;
+flex-direction: row; 
+
+}
+
+.about-k_txt {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33em;
+    color: var(--adress-color);
+    text-transform: uppercase;
+}
+
+     .img-cook {
+        /* position: absolute;
         left: 16px;
-        top: 50px;
+        top: 50px; */
         margin-bottom: 0;
         max-width: 511px;
-    }
+    } 
 
-    .about-k_txt {
+     .about-k_txt {
         font-weight: 500;
-        position: absolute;
-        left: 0px;
-        padding-top: 0;
-    }
+        display: flex;
+        gap: 32px;
+        flex-direction: row;
+        
+         position: absolute;
+         top: 521px;
+        right: 46px;
+        padding-top: 0; 
+    } 
 
     .about-k_txt-item {
         width: 334px;
+         height: 144px;
+         padding-bottom: 0;
     }
 
     .about-k_txt-item-two {
         width: 453px;
+        height: 120px;
     }
 
-    .about-k-info {
+    /* .about-k-info {
         position: relative;
         top: 0;
         left: 543px;
-    }
+    } */
 
     .example {
         max-width: 334px;
+       
     }
 
     .example-drink {
