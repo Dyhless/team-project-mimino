@@ -1,8 +1,8 @@
-$('.slider-restdet-desctop').slick({
+$('.slider-det-rest').slick({
     arrows: true,
     dots: false,
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     variableWidth: true,
-    leftMode: true,
+    screenLeft: true, 
 });
