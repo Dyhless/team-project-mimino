@@ -10,7 +10,7 @@
     visibility var(--transition-dur-func);
 }
 
-.backdrop-modal-roOOom.is-hidden {
+.backdrop-modal-prices.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -76,9 +76,9 @@
   fill: currentColor;
 }
 
-.modal-prices-form-label {
+/* .modal-prices-form-label {
   margin-bottom: 32px;
-}
+} */
 
 .modal-prices-title {
   display: block;
@@ -110,13 +110,18 @@
   color: var(--h1-h2-h3-whitecolor);
 }
 
+@media screen and (min-width: 768px) {
+  .modal-prices-small-title {
+    margin-bottom: 32px;
+  }
+}
+
 .modal-prices-form {
   display: flex;
   flex-direction: column;
 }
 
 .modal-prices-form-input-desc {
-  display: block;
   margin-top: 8px;
   font-size: 8px;
   line-height: 1.5px;
@@ -161,6 +166,12 @@
   margin-bottom: 32px;
 }
 
+@media screen and (min-width: 768px) {
+  .modal-prices-lable-block {
+    margin-bottom: 0;
+  }
+}
+
 .modal-prices-number-people {
   padding-bottom: 18px;
   color: #f7f7f7;
@@ -187,15 +198,21 @@
   position: relative;
 }
 
-.modal-icon {
+.prices-modal-icon {
   height: 36px;
   pointer-events: none;
   background-color: var(--backcolor-dark);
   display: inline-block;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   fill: var(--h1-h2-h3-whitecolor);
+}
+
+@media screen and (min-width: 768px) {
+  .prices-modal-icon {
+    right: 12px;
+  }
 }
 
 .modal-prices-form-btn {
@@ -216,6 +233,12 @@
   background-color: var(--paragraph-blackcolor);
   transition: background-color var(--transition-dur-func),
     color var(--transition-dur-func);
+}
+
+@media screen and (min-width: 768px) {
+  .modal-prices-form-btn {
+    margin-top: 80px;
+  }
 }
 
 .modal-prices-form-btn:hover,
