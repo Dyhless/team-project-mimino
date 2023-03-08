@@ -162,7 +162,7 @@
   }
   .btn-book {
     margin-top: 100px;
-    margin-left: 0;
+    margin-left: 127px;
     margin-right: auto;
     display: flex;
   }
@@ -219,7 +219,7 @@
  
 
   .slider-item {
-       min-width: calc((100% - var(--indent)) / var(--items));
+  min-width: calc((100% - var(--indent)) / var(--items));
   }
 
   .menu {
@@ -251,16 +251,7 @@
 
 
 /* Slider */
-/* Скрито на десктоп */
-@media screen and (min-width: 1440px) {
-  .slider-menu {
-    display: none;
-  }
 
-   .slider-menu .slick-slide {
-    display: none;
-   }
-}
 
 .slider-menu .slick-track {
 
@@ -276,7 +267,7 @@ display: flex;
 }  
 
  .slider-menu .slick-list {
-    position: relative;
+    /* position: relative; */
     display: block;
     overflow: hidden;
     margin: 0;
@@ -300,21 +291,33 @@ display: flex;
     outline: none;
 }
 
-.slider-menu .slick-arrow.slick-prev {
+.slider-menu .slick-prev {
     top: 100%;
     left: 40%;
+        
+}
+
+.slick-prev {
     background-position: center;
-    background-image: url("../../img/icons/slider-left.svg") 0 0 no-repeat;
+    background-image: url('../../img/icons/slider-prev-menu.svg');
+    background-repeat: no-repeat;
+  
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
     
 }
 
-.slider-menu .slick-arrow.slick-next {
+.slider-menu .slick-next {
     top: 100%;
-    left: 53%;
+    left: 53.13%;
+    
+}
+.slick-next {
     background-position: center;
-    background-image: url('../../img/icons/slider-right.svg') 0 0 no-repeat;
+    background-image: url('../../img/icons/slider-next-menu.svg');
+    background-repeat: no-repeat;
+
+
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
 }
@@ -330,18 +333,52 @@ display: flex;
     font-size: 0;
     width: 24px;
     height: 24px;
-
-
-    background-color: aqua;
+    
 }
 
-.slider-menu .slick-arrow.slick-next:hover,
-.slider-menu .slick-arrow.slick-next:focus,
-.slider-menu .slick-arrow.slick-prev:hover,
-.slider-menu .slick-arrow.slick-prev:focus {
+.slider-menu .slick-next:hover,
+.slider-menu .slick-next:focus,
+.slider-menu .slick-prev:hover,
+.slider-menu .slick-prev:focus {
     opacity: 1;
+} 
+
+
+
+@media screen and (min-width: 768px) {
+  .slider-menu .slick-prev,
+.slider-menu .slick-next {
+    position: absolute;
+    top: 100%;
+    
+    z-index: 10;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
 }
 
+.slider-menu .slick-prev {
+    top: 100%;
+    left: 348px;
+}
+
+.slider-menu .slick-next {
+    top: 100%;
+    left: 416px;
+    
+}
+
+
+
+
+}
+
+
+
+/* .slick-next:hover,
+.slick-next:focus {
+  opacity: 1;
+} */
 
  .slider-menu {
    
@@ -350,7 +387,16 @@ display: flex;
 } 
 
 
+/* Скрито на десктоп */
+@media screen and (min-width: 1440px) {
+  .slider-menu {
+    display: none;
+  }
 
+   .slider-menu .slick-slide {
+    display: none;
+   }
+}
 
 
  
