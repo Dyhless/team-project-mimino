@@ -4,6 +4,10 @@
     background-color: var(--backcolor-light);
 }
 
+.restourant-details-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 @media screen and (min-width: 768px) {
     .restourant-details {
         padding-bottom: 0px;

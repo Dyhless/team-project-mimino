@@ -1,3 +1,6 @@
+.about_k-bgcolor {
+    background-color: var(--backcolor-light);
+}
 .about_k {
     padding-top: 64px;
     padding-bottom: 64px;

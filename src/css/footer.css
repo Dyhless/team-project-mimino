@@ -1,5 +1,7 @@
 /* ==================== Global styles ==================== */
-
+.footer-bgcolor {
+  background-color: var(--backcolor-light);
+}
 .footer-section {
   border: 0.5px solid rgba(18, 18, 18, 0.3);
   border-top: none;
@@ -56,7 +58,17 @@
 }
 
 .footer-social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  border: 1px solid var(--lightwhite-paragraph);
+  border-radius: 8px;
 }
 
 /* ==================== /Global styles ==================== */

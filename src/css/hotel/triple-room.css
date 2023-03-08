@@ -1,4 +1,8 @@
 /*---------MOBILE---------------*/
+.h-rooms-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 .h-rooms {
     background-color: var(--backcolor-light);
     padding-bottom: 64px;

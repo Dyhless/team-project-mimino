@@ -55,8 +55,8 @@
 
 .btn-book:hover,
 .btn-book:focus {
-  background-color: var(btns-whiteborder);
-  color: var(paragraph-blackcolor);
+  background-color: var(--btns-whiteborder);
+  color: var(--paragraph-blackcolor);
 }
 
 

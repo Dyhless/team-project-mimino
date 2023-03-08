@@ -1,8 +1,10 @@
+.section-welcome-main-bgcolor {
+    background-color: var(--backcolor-light);
+}
+
 .section-welcome-main {
     padding-bottom: 64px;
 }
-
-.welcome-main-container {}
 
 .welcome-about {
     display: flex;
@@ -22,8 +24,6 @@
     line-height: 1.12;
 }
 
-.title {}
-
 .welcome-title-italic {
     font-style: italic;
 }
@@ -42,9 +42,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
-}
-
-.welcome-img {
 }
 
 /*------- TABLET------- */
@@ -101,7 +98,7 @@
         gap: 24px;
     }
 
-        .welcome-sabtitle {
-            font-size: 14px;
-        }
+    .welcome-sabtitle {
+        font-size: 14px;
+    }
 }

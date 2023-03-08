@@ -1,5 +1,9 @@
 /* ==================== Global styles ==================== */
 
+.location-section-bgcolor {
+  background-color: var(--backcolor-light);
+}
+
 .location-title {
   font-weight: 500;
   font-size: 68px;
