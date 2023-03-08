@@ -68,6 +68,10 @@
   color: var(--burger-symbols-dark);
 }
 
+.cont-tab {
+  padding-bottom: 64px;
+}
+
 @media screen and (min-width: 768px) {
   .container-amenities {
     max-width: 768px;
