@@ -28,10 +28,9 @@
     />
 
     
-    <script type="module" crossorigin src="/team-project-mimino/assets/hotel-fb15c951.js"></script>
+    <script type="module" crossorigin src="/team-project-mimino/assets/hotel-d0885441.js"></script>
     <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/mobile-menu-9980dbf5.js">
-    <link rel="modulepreload" crossorigin href="/team-project-mimino/assets/prices-modal-982fb2ce.js">
-    <link rel="stylesheet" href="/team-project-mimino/assets/mobile-menu-28a517c7.css">
+    <link rel="stylesheet" href="/team-project-mimino/assets/mobile-menu-e59b885d.css">
   </head>
   <body>
     <header class="header container">
@@ -181,7 +180,9 @@
           <button class="hotel-hero-btn" type="button" room-modal-hotel-1-open>
             book a room
           </button>
-          <button class="hotel-hero-btn" type="button">View prices</button>
+          <button class="hotel-hero-btn" type="button" prices-modal-hotel-open>
+            View prices
+          </button>
         </div>
       </div>
       <p class="hotel-hero-description">
@@ -375,7 +376,9 @@
         <a class="current" href="./room.html">
           <button class="h-dbl-rooms-btn" type="button">MORE DETAILS</button>
         </a>
-        <button class="h-dbl-rooms-btn" type="button">VIEW PRICES</button>
+        <button class="h-dbl-rooms-btn" type="button" prices-modal-hotel-2-open>
+          VIEW PRICES
+        </button>
       </div>
     </div>
   </div>
@@ -486,7 +489,9 @@
         <a class="current" href="./room.html">
           <button class="h-rooms-btn" type="button">MORE DETAILS</button>
         </a>
-        <button class="h-rooms-btn" type="button">VIEW PRICES</button>
+        <button class="h-rooms-btn" type="button" prices-modal-hotel-3-open>
+          VIEW PRICES
+        </button>
       </div>
     </div>
   </div>
@@ -592,7 +597,9 @@
         <a class="current" href="./room.html">
           <button class="h-fs-rooms-btn" type="button">MORE DETAILS</button>
         </a>
-        <button class="h-fs-rooms-btn" type="button">VIEW PRICES</button>
+        <button class="h-fs-rooms-btn" type="button" prices-modal-hotel-4-open>
+          VIEW PRICES
+        </button>
       </div>
     </div>
   </div>
@@ -687,6 +694,274 @@
         class="modal-room-form-btn"
         room-modal-hotel-1-close
       >
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop-modal-prices is-hidden" prices-modal-hotel>
+  <div class="modal-prices">
+    <button
+      type="button"
+      class="modal-prices-close-btn"
+      prices-modal-hotel-close
+    >
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-prices-title">
+      Prices per<span class="part-modal-room-title"> room</span>
+    </h1>
+    <h2 class="modal-prices-small-title">Double suite</h2>
+    <form
+      class="modal-prices-form"
+      name="modal-prices-form"
+      data-modal=""
+      autocomplete="off"
+    >
+      <div class="modal-prices-wrap">
+        <div class="modal-prices-block">
+          <div class="modal-prices-lable-block">
+            <label class="modal-prices-form-label" for="number-people">
+              <select
+                id="number-people"
+                name="number-people"
+                class="modal-prices-number-people"
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <svg class="modal-icon" width="20" height="20">
+                <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-prices-block">
+          <label class="modal-prices-form-label date-label">
+            <input
+              value="2023-04-25"
+              type="date"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-prices-form-input modal-prices-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-prices-form-input-desc">Check-in date</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="modal-prices-form-btn">
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop-modal-prices is-hidden" prices-modal-hotel-2>
+  <div class="modal-prices">
+    <button
+      type="button"
+      class="modal-prices-close-btn"
+      prices-modal-hotel-2-close
+    >
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-prices-title">
+      Prices per<span class="part-modal-room-title"> room</span>
+    </h1>
+    <h2 class="modal-prices-small-title">Double suite</h2>
+    <form
+      class="modal-prices-form"
+      name="modal-prices-form"
+      data-modal=""
+      autocomplete="off"
+    >
+      <div class="modal-prices-wrap">
+        <div class="modal-prices-block">
+          <div class="modal-prices-lable-block">
+            <label class="modal-prices-form-label" for="number-people">
+              <select
+                id="number-people"
+                name="number-people"
+                class="modal-prices-number-people"
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <svg class="modal-icon" width="20" height="20">
+                <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-prices-block">
+          <label class="modal-prices-form-label date-label">
+            <input
+              value="2023-04-25"
+              type="date"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-prices-form-input modal-prices-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-prices-form-input-desc">Check-in date</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="modal-prices-form-btn">
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop-modal-prices is-hidden" prices-modal-hotel-3>
+  <div class="modal-prices">
+    <button
+      type="button"
+      class="modal-prices-close-btn"
+      prices-modal-hotel-3-close
+    >
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-prices-title">
+      Prices per<span class="part-modal-room-title"> room</span>
+    </h1>
+    <h2 class="modal-prices-small-title">Double suite</h2>
+    <form
+      class="modal-prices-form"
+      name="modal-prices-form"
+      data-modal=""
+      autocomplete="off"
+    >
+      <div class="modal-prices-wrap">
+        <div class="modal-prices-block">
+          <div class="modal-prices-lable-block">
+            <label class="modal-prices-form-label" for="number-people">
+              <select
+                id="number-people"
+                name="number-people"
+                class="modal-prices-number-people"
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <svg class="modal-icon" width="20" height="20">
+                <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-prices-block">
+          <label class="modal-prices-form-label date-label">
+            <input
+              value="2023-04-25"
+              type="date"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-prices-form-input modal-prices-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-prices-form-input-desc">Check-in date</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="modal-prices-form-btn">
+        MAKE A RESERVATION
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="backdrop-modal-prices is-hidden" prices-modal-hotel-4>
+  <div class="modal-prices">
+    <button
+      type="button"
+      class="modal-prices-close-btn"
+      prices-modal-hotel-4-close
+    >
+      <svg class="modal-close-btn-icon" width="14" height="14">
+        <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="modal-prices-title">
+      Prices per<span class="part-modal-room-title"> room</span>
+    </h1>
+    <h2 class="modal-prices-small-title">Double suite</h2>
+    <form
+      class="modal-prices-form"
+      name="modal-prices-form"
+      data-modal=""
+      autocomplete="off"
+    >
+      <div class="modal-prices-wrap">
+        <div class="modal-prices-block">
+          <div class="modal-prices-lable-block">
+            <label class="modal-prices-form-label" for="number-people">
+              <select
+                id="number-people"
+                name="number-people"
+                class="modal-prices-number-people"
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <svg class="modal-icon" width="20" height="20">
+                <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+              </svg>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal-prices-block">
+          <label class="modal-prices-form-label date-label">
+            <input
+              value="2023-04-25"
+              type="date"
+              min="2023-03-01"
+              max="2024-01-01"
+              class="modal-prices-form-input modal-prices-date"
+            />
+            <svg class="modal-icon" width="20" height="20">
+              <use href="/team-project-mimino/assets/sprite-a86796d5.svg#icon-chevron-down"></use>
+            </svg>
+            <span class="modal-prices-form-input-desc">Check-in date</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="modal-prices-form-btn">
         MAKE A RESERVATION
       </button>
     </form>
@@ -790,6 +1065,9 @@
       crossorigin="anonymous"
     ></script>
 
+    
+    
+    
     
     
     
