@@ -304,7 +304,7 @@ display: flex;
     top: 100%;
     left: 40%;
     background-position: center;
-    background-image: url("/src/img/icons/slider-left.svg") 0 0 no-repeat;
+    background-image: url("../../img/icons/slider-left.svg") 0 0 no-repeat;
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
     
@@ -314,7 +314,7 @@ display: flex;
     top: 100%;
     left: 53%;
     background-position: center;
-    background-image: url('/src/img/icons/slider-right.svg') 0 0 no-repeat;
+    background-image: url('../../img/icons/slider-right.svg') 0 0 no-repeat;
     opacity: 0.3;
     transition: opasity var(--transition-dur-func);
 }
