@@ -10,7 +10,7 @@
     visibility var(--transition-dur-func);
 }
 
-.backdrop-modal-roOOom.is-hidden {
+.backdrop-modal-prices.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
