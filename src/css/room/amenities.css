@@ -120,7 +120,7 @@
   }
 
   .btn-amenitiens {
-    left: 518px;
+    left: -352px;
     top: 427px;
     min-width: 170px;
     height: 42px;
@@ -131,13 +131,16 @@
     max-width: 1440px;
   }
   .thumb-absolute {
-    left: 518px;
+    left: -352px;
     top: 208px;
   }
   .thumb-amenities {
+    position: absolute;
+    top: 1676px;
+    left: 912px;
     padding-top: 0;
   }
   .cont-tab {
-    padding-bottom: 100px;
+    padding-bottom: 616px;
   }
 }
