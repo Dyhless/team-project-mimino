@@ -3,7 +3,8 @@
 }
 
 .section-welcome-main {
-  padding-bottom: 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .welcome-about {
@@ -47,6 +48,7 @@
 /*------- TABLET------- */
 @media screen and (min-width: 768px) {
   .section-welcome-main {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -72,6 +74,7 @@
 /*------- DESCTOP------- */
 @media screen and (min-width: 1440px) {
   .section-welcome-main {
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .welcome-main-container {
