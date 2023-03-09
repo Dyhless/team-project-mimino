@@ -162,14 +162,17 @@
   }
   .btn-book {
     margin-top: 100px;
-    margin-left: 127px;
+    margin-left: 24.66%;
     margin-right: auto;
     display: flex;
   }
 
+  .single-item .slider-menu {
+    display: block;
+  }
   .menu-txt {
     font-size: 12px;
-    max-width: 345px;
+    min-width: 345px;
   }
   .menu-weight {
     font-size: 14px;
@@ -178,10 +181,11 @@
    .slider-item {
     /* max-width: 515px; */
     /* max-height: 533px;  */
-    
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   } 
+
 
   .menu-list::after {
     content: "";
@@ -216,10 +220,9 @@
     margin-top: 42px;
   }
 
- 
 
   .slider-item {
-  min-width: calc((100% - var(--indent)) / var(--items));
+  width: calc((100% - var(--indent)) / var(--items));
   }
 
   .menu {
@@ -254,9 +257,8 @@
 
 
 .slider-menu .slick-track {
-
 display: flex;
-/* align-items: self-start; */
+
 }
 
 
@@ -297,13 +299,13 @@ display: flex;
         
 }
 
-.slick-prev {
+.slider-menu .slick-prev {
     background-position: center;
     background-image: url('../../img/icons/slider-prev-menu.svg');
     background-repeat: no-repeat;
   
-    opacity: 0.3;
-    transition: opasity var(--transition-dur-func);
+    opacity: 0.5;
+    transition: opacity var(--transition-dur-func);
     
 }
 
@@ -312,14 +314,13 @@ display: flex;
     left: 53.13%;
     
 }
-.slick-next {
+.slider-menu .slick-next {
     background-position: center;
     background-image: url('../../img/icons/slider-next-menu.svg');
     background-repeat: no-repeat;
 
-
-    opacity: 0.3;
-    transition: opasity var(--transition-dur-func);
+    opacity: 0.5;
+    transition: opacity var(--transition-dur-func); 
 }
 
 
@@ -333,7 +334,8 @@ display: flex;
     font-size: 0;
     width: 24px;
     height: 24px;
-    
+
+       
 }
 
 .slider-menu .slick-next:hover,
@@ -346,7 +348,7 @@ display: flex;
 
 
 @media screen and (min-width: 768px) {
-  .slider-menu .slick-prev,
+.slider-menu .slick-prev,
 .slider-menu .slick-next {
     position: absolute;
     top: 100%;
@@ -357,28 +359,22 @@ display: flex;
     height: 36px;
 }
 
+
 .slider-menu .slick-prev {
     top: 100%;
-    left: 348px;
+    left: 47.28%;
 }
 
 .slider-menu .slick-next {
     top: 100%;
-    left: 416px;
+    left: 56.9%;
     
 }
 
 
 
-
 }
 
-
-
-/* .slick-next:hover,
-.slick-next:focus {
-  opacity: 1;
-} */
 
  .slider-menu {
    
