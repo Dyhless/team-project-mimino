@@ -74,5 +74,9 @@
             </path>
          </symbol>
       </symbol>
+      <symbol id="icon-burger-black" viewBox="0 0 32 32">
+         <path fill="none" stroke="#121212" style="stroke: var(--color1, #121212)" stroke-linejoin="round"
+            stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M4 16h24M4 8h24M4 24h16"></path>
+      </symbol>
    </defs>
 </svg>
