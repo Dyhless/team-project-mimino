@@ -1,18 +1,33 @@
 .header {
   position: relative;
+}
+
+.header-background--dark {
   background-color: var(--backcolor-dark);
 }
 
-@media screen and (min-width: 1440px) {
-  .header::after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 75px;
-    width: 100%;
-    border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
-    z-index: 1;
-  }
+.header-background--transparent {
+  border-color: transparent;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 75px;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  z-index: 1;
+}
+
+.header--border::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 75px;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+  z-index: 1;
 }
 
 .header-control {
@@ -40,23 +55,40 @@
 }
 
 .header-nav__link {
+  position: relative;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.header-nav__link--white {
   color: var(--paragraph-whitecolor);
 }
 
 .current::after {
   position: absolute;
   content: '';
-  left: 49px;
-  bottom: 20px;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
   width: 4px;
   height: 4px;
   border-radius: 50%;
   background: var(--paragraph-whitecolor);
+}
+
+.current--white::after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--backcolor-dark);
 }
 
 .header-logo {
@@ -70,6 +102,9 @@
   line-height: 1.6;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+}
+
+.header-logo--white {
   color: var(--paragraph-whitecolor);
 }
 
@@ -92,6 +127,9 @@
   line-height: 1.3;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+}
+
+.header-logo--span {
   color: var(--lightwhite-paragraph);
 }
 
@@ -144,6 +182,10 @@
   outline: none;
 }
 
+.burger-menu__icon {
+  fill: var(--backcolor-dark);
+}
+
 @media screen and (min-width: 768px) {
   .menu-toggle {
     top: 23px;
@@ -184,6 +226,7 @@
   outline: none;
   fill: #f7f7f7;
 }
+
 
 .border-bottom {
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
