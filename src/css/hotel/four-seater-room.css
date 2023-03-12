@@ -155,3 +155,11 @@
     }
 }
 /*---------------/DESKTOP----------------*/
+
+/* HOtel rooms pictures animation */
+.four-seater-room:hover {
+    transform: scale(1.1);
+}
+.four-seater-room {
+    transition: transform 0.5s;
+}

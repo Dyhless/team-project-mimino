@@ -305,3 +305,11 @@
 }
 /* ============Slider================= */
 
+/* Hero hotel pictures animation */
+.hero-hotel-image {
+    transition: transform 0.5s;
+}
+
+.hero-hotel-image:hover {
+    transform: scale(1.1);
+}

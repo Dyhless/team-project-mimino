@@ -243,3 +243,13 @@
 .part-hero-restaurant-desc {
   font-style: italic;
 }
+
+
+/* Hero restaurant pictures animation */
+.hero-restaurant-img {
+  transition: transform 0.5s;
+}
+
+.hero-restaurant-img:hover {
+  transform: scale(1.1);
+}

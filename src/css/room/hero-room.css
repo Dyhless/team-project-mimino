@@ -273,3 +273,11 @@
     margin-right: 32px;
 }
 
+/* Hero rooms pictures animation */
+.hero-room-picture:hover {
+    transform: scale(1.1);
+}
+
+.hero-room-picture {
+    transition: transform 0.5s;
+}
