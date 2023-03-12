@@ -441,6 +441,20 @@ div.wraper-relative-top {
     }
 }
 
+/* Abaco Pictures animation */
+.abaco-hotel-hall:hover,
+.abaco-hotel-bath:hover,
+.abaco-hotel-rest:hover,
+.abaco-hotel-table:hover {
+    transform: scale(1.1);
+}
+
+.abaco-hotel-hall,
+.abaco-hotel-bath,
+.abaco-hotel-rest,
+.abaco-hotel-table {
+    transition: transform 0.5s;
+}
 
 
 

@@ -181,3 +181,11 @@ order:1;
     }
 }
 /*---------------/DESKTOP----------------*/
+
+/* HOtel rooms pictures animation */
+.triple-room-img:hover {
+    transform: scale(1.1);
+}
+.triple-room-img {
+    transition: transform 0.5s;
+}

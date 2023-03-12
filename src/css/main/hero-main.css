@@ -165,3 +165,14 @@
     width: 338px;
   }
 }
+
+
+/* Header image-animation */
+
+.hero-main-img {
+  transition: transform 0.5s;
+}
+
+.hero-main-img:hover {
+  transform: scale(1.1);
+}

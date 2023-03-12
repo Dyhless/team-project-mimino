@@ -185,3 +185,12 @@
 }
 
 /*---------------/DESKTOP----------------*/
+
+
+/* Hotel rooms pictures animation */
+.hotel-room-image-gallery:hover {
+    transform: scale(1.1);
+}
+.hotel-room-image-gallery {
+    transition: transform 0.5s;
+}

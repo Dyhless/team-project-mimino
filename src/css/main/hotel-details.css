@@ -194,3 +194,14 @@
         padding: 9px 24px;
     }
 }
+
+/* Hotdet pictures animation */
+
+.welcome-img {
+    transition: transform 0.5s;
+    transform: scale(0.9);
+}
+
+.welcome-img:hover {
+    transform: scale(1.1);
+}

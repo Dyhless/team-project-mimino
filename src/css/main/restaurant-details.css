@@ -420,3 +420,14 @@
     display: none;
   }
 }
+
+/* Restdet pictures animation */ 
+.pic-slider-restdet,
+.img-rest-det-slider {
+  transition: transform 0.5s;
+}
+
+.pic-slider-restdet:hover,
+.img-rest-det-slider:hover {
+  transform: scale(1.1)
+}
