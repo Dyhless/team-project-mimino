@@ -24,6 +24,7 @@
             <input
               type="text"
               name="user_name"
+              title="John Smith"
               placeholder="Your name"
               class="modal-table-form-input"
               required
@@ -80,7 +81,8 @@
               placeholder="+ 38 ()"
               class="modal-table-form-input"
               required
-              title="xxx-xxx-xx-xx"
+              pattern="[\+]\d{3}[\(]\d{2}[\)]\d{3}[\-]\d{2}[\-]\d{2}"
+              title="+380(99)999-99-99"
             />
             <span class="modal-table-form-input-desc">Phone number</span>
           </label>
