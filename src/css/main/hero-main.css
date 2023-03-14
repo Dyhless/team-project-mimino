@@ -25,17 +25,18 @@
   padding: 40px 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .hero-main-wrraper {
+    padding: 50px 0 38px 0;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .hero-main-wrraper {
     padding: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  .hero-main-wrraper {
-    padding: 50px 0 38px 0;
-  }
-}
 
 .hero-main__title {
   position: absolute;
@@ -48,6 +49,40 @@
   text-transform: uppercase;
   color: var(--h1-h2-h3-whitecolor);
 }
+
+@media screen and (max-width: 1439px) {
+  .hero-main__title {
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd-top 1.5s 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-top {
+  0% {
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  opacity: 1;
+}
+}
+
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero-main__title {
@@ -63,8 +98,40 @@
     position: static;
     font-size: 180px;
     padding: 196px 0;
+
+    -webkit-animation: focus-in-expand 1s 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: focus-in-expand 1s 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 }
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 
 .hero-main__list {
   display: flex;
