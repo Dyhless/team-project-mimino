@@ -286,7 +286,8 @@
   .mobile-menu-social {
     position: absolute;
     top: 27px;
-    left: 653px;
+    left: 100%;
+    transform: translateX(-132px);
   }
 }
 
