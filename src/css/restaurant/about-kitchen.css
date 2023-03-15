@@ -193,6 +193,27 @@ flex-direction: row;
     .example-drink {
         max-width: 467px;
     }
+
+.img-cook:hover {
+    transform: scale(1.1);
+}
+.img-cook {
+    transition: transform 0.5s;
+}
+
+.example:hover {
+    transform: scale(1.1);
+}
+.example {
+    transition: transform 0.5s;
+}
+
+.example-drink:hover {
+    transform: scale(1.1);
+}
+.example-drink {
+    transition: transform 0.5s;
+}
 }
 
 
