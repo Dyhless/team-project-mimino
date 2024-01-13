@@ -8,9 +8,7 @@ reservations.
 
 - In the project, `HTML+CSS` technologies were used.
 - `Agile/Scrum` methodologies
-
-This project was created using `Vite`. To get acquainted with and configure
-additional features, [refer to the documentation](https://sites.dev/).
+- This project was created using `Vite`.
 
 **Developers involved in the project:**
 
