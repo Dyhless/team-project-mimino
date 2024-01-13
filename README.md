@@ -4,11 +4,13 @@
 
 The project's objective was to develop a website for a hotel named **MIMINO**
 with features for room registration, restaurant menu view and table
-reservations.I gained experience working in `Agile/Scrum` methodologies.
+reservations.
 
-In the project, `HTML+CSS` technologies were used. This project was created
-using `Vite`. To get acquainted with and configure additional features,
-[refer to the documentation](https://sites.dev/).
+- In the project, `HTML+CSS` technologies were used.
+- `Agile/Scrum` methodologies
+
+This project was created using `Vite`. To get acquainted with and configure
+additional features, [refer to the documentation](https://sites.dev/).
 
 **Developers involved in the project:**
 
