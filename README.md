@@ -7,7 +7,7 @@ with features for room registration, restaurant menu view and table
 reservations.
 
 - In the project, `HTML+CSS` technologies were used.
-- `Agile/Scrum` methodologies
+- `Agile/Scrum` methodologies.
 - This project was created using `Vite`.
 
 **Developers involved in the project:**
