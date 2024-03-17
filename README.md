@@ -8,7 +8,7 @@ reservations.
 
 - In the project, `HTML+CSS` technologies were used.
 - `Agile/Scrum` methodologies.
-- This project was created using `Vite`.
+- This project was created using `Vite` bandler.
 
 **Developers involved in the project:**
 
