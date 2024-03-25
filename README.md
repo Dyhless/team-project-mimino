@@ -6,9 +6,9 @@ The project's objective was to develop a website for a hotel named **MIMINO**
 with features for room registration, restaurant menu view and table
 reservations.
 
-- In the project, `HTML+CSS` technologies were used.
-- `Agile/Scrum` methodologies.
-- This project was created using bandler - `Vite`.
+- In the project, `HTML+CSS` technologies were used
+- `Agile/Scrum` methodologies
+- This project was created using bandler - `Vite`
 
 **Developers involved in the project:**
 
